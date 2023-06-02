@@ -28,12 +28,12 @@
 </blockquote>
 <p>准备搭建博客的目的也是为此，决定将我学到的东西分享到网上，正好督促我自己的学习进度，并且这种文书工作我也并不讨厌，可以说得上相得益彰了。总之，学习的路很长，漫漫长路从脚下开始。从今天开始我会将一些学习笔记、不那么隐私的生活感悟写进我的博客，如果你看到了，请付之一笑，这些只不过是我年少的妄语，随着时间的推移，身份的改变，我自己肯定也会改变的，再回过头来看说不定也觉得现在的自己年轻幼稚。</p>
 
-        <div id="aplayer-ImOEiOlk" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-hhXpwZBh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-ImOEiOlk"),
+            element: document.getElementById("aplayer-hhXpwZBh"),
             narrow: false,
             autoplay: false,
             showlrc: false,
