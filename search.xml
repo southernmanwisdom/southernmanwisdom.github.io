@@ -54,7 +54,8 @@
     <title></title>
     <url>/2023/06/02/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
-<h2 id="title-朴素贝叶斯分类算法top-0copyright-truedate-2023-06-02-19-12-52updated-2023-06-02-19-12-52permalink-password-comments-tags-贝叶斯categories-人工智能keywords-description"><a href="#title-朴素贝叶斯分类算法top-0copyright-truedate-2023-06-02-19-12-52updated-2023-06-02-19-12-52permalink-password-comments-tags-贝叶斯categories-人工智能keywords-description" class="headerlink" title="title: 朴素贝叶斯分类算法top: 0copyright: truedate: 2023-06-02 19:12:52updated: 2023-06-02 19:12:52permalink:password:comments:tags: 贝叶斯categories: 人工智能keywords:description:"></a>title: 朴素贝叶斯分类算法<br>top: 0<br>copyright: true<br>date: 2023-06-02 19:12:52<br>updated: 2023-06-02 19:12:52<br>permalink:<br>password:<br>comments:<br>tags: 贝叶斯<br>categories: 人工智能<br>keywords:<br>description:</h2><h1 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h1><p>贝叶斯分类是一类分类算法的总称，算法以贝叶斯定理为基础，所以称为贝叶斯分类。本文将首先介绍分类问题，对分类问题进行一个正式的定义。然后，介绍贝叶斯分类算法的基础——贝叶斯定理。最后，通过实例讨论贝叶斯分类中最简单的一种：朴素贝叶斯分类。</p>
+<hr>
+<h1 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h1><p>贝叶斯分类是一类分类算法的总称，算法以贝叶斯定理为基础，所以称为贝叶斯分类。本文将首先介绍分类问题，对分类问题进行一个正式的定义。然后，介绍贝叶斯分类算法的基础——贝叶斯定理。最后，通过实例讨论贝叶斯分类中最简单的一种：朴素贝叶斯分类。</p>
 <h1 id="二、分类问题介绍"><a href="#二、分类问题介绍" class="headerlink" title="二、分类问题介绍"></a>二、分类问题介绍</h1><p>分类，顾名思义，就是把集合分出类别来，比如人类可以分为黄种人、白种人、黑种人。</p>
 <p>在数学方面可以做如下定义：</p>
 <p>已知集合：</p>
