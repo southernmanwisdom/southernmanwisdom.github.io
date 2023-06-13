@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>哥们的第一篇博客(测试)</title>
+    <url>/2023/05/24/%E5%93%A5%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2-%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>#我的第一篇博客</p>
+<p>其实我开始博客的时间已经相当晚了，现在已经是大三的下学期即将画上句号，按理说能学得都已经学完了，现在正是把学到的东西实践的时刻了。可惜我学艺不精，所以决定考研这条路，也就意味着我的专业课知识得从头来过，不过这也没什么好后悔的，正好以这为教训，引以为鉴。</p>
+<blockquote>
+<p>种一棵树最好的时间是十年前，其次是现在。</p>
+</blockquote>
+<p>准备搭建博客的目的也是为此，决定将我学到的东西分享到网上，正好督促我自己的学习进度，并且这种文书工作我也并不讨厌，可以说得上相得益彰了。总之，学习的路很长，漫漫长路从脚下开始。从今天开始我会将一些学习笔记、不那么隐私的生活感悟写进我的博客，如果你看到了，请付之一笑，这些只不过是我年少的妄语，随着时间的推移，身份的改变，我自己肯定也会改变的，再回过头来看说不定也觉得现在的自己年轻幼稚。</p>
+
+        <div id="aplayer-FHogaPbV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-FHogaPbV"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "从头再来",
+              author: "崔健",
+              url: "https://music.163.com/#/song?id=1962385458",
+              pic: "",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2023/05/23/hello-world/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -19,36 +51,16 @@
 ]]></content>
   </entry>
   <entry>
-    <title>哥们的第一篇博客(测试)</title>
-    <url>/2023/05/24/%E5%93%A5%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2-%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>#我的第一篇博客</p>
-<p>其实我开始博客的时间已经相当晚了，现在已经是大三的下学期即将画上句号，按理说能学得都已经学完了，现在正是把学到的东西实践的时刻了。可惜我学艺不精，所以决定考研这条路，也就意味着我的专业课知识得从头来过，不过这也没什么好后悔的，正好以这为教训，引以为鉴。</p>
-<blockquote>
-<p>种一棵树最好的时间是十年前，其次是现在。</p>
-</blockquote>
-<p>准备搭建博客的目的也是为此，决定将我学到的东西分享到网上，正好督促我自己的学习进度，并且这种文书工作我也并不讨厌，可以说得上相得益彰了。总之，学习的路很长，漫漫长路从脚下开始。从今天开始我会将一些学习笔记、不那么隐私的生活感悟写进我的博客，如果你看到了，请付之一笑，这些只不过是我年少的妄语，随着时间的推移，身份的改变，我自己肯定也会改变的，再回过头来看说不定也觉得现在的自己年轻幼稚。</p>
-
-        <div id="aplayer-hhXpwZBh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-hhXpwZBh"),
-            narrow: false,
-            autoplay: false,
-            showlrc: false,
-            music: {
-              title: "从头再来",
-              author: "崔健",
-              url: "https://music.163.com/#/song?id=1962385458",
-              pic: "",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
+    <title>6月份学习计划</title>
+    <url>/2023/06/13/6%E6%9C%88%E4%BB%BD%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>现在是6月13日，已经距离期末考试的结束有过一段时间了，而且休息也休息过了，接下来就是彻底投入到考研的准备。因为避免期末不挂科，所以用了半个多月的时间一直在复习，已经很久没有碰过考研的学习了，数学和英语都有点忘却。因为首先17日要考六级，所以这几天还是以英语的复习为主，过几天再重新开始数学的复习，而且这次考试又把我分到财院校区去了，这下又得提前踩好点。另外就是18日要开始小学期了，这次小学期我选择的是数据库相关的知识，可以提前学习。</p>
+<p>6月还剩下半个月，我得把数学第二轮尽快搞完，因为还有线代没学，并且政治8、9月份的时候要开始了，后面就不会分到数学太多的时间，所以得尽快完成数学的深入学习。</p>
+<p>另外就是英语，很久没有搞了，得重新将英语的学习回归日常，另外现在可以多做一些原题了，计划是每周做2篇阅读题。</p>
+<p>数据结构的学习还是想放到下一个月，7月份已经放暑假了，希望能够留校，这样就可以在图书馆里学习，家里确实不适合学习，也没有免费的空调蹭。</p>
 ]]></content>
+      <categories>
+        <category>计划</category>
+      </categories>
   </entry>
   <entry>
     <title>朴素贝叶斯分类算法</title>
@@ -122,85 +134,84 @@
       </tags>
   </entry>
   <entry>
-    <title>机器学习</title>
-    <url>/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="学习概述"><a href="#学习概述" class="headerlink" title="学习概述"></a>学习概述</h1><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p>机器可以自动”学习”的算法，即从<strong>数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。</strong></p>
-<h2 id="学习的反馈类型"><a href="#学习的反馈类型" class="headerlink" title="学习的反馈类型"></a>学习的反馈类型</h2><h3 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h3><p>不提供任何的显示反馈，比如：KNN聚类算法</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
-<h3 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h3><p>提供“输入-输出”对，学习从输入到输出的映射函数。比如：贝叶斯网络，人工神经网络，决策树</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
-<h3 id="半监督学习"><a href="#半监督学习" class="headerlink" title="半监督学习"></a>半监督学习</h3><p>提供少量的“输入-输出”对，大部分样本未标注。基于图的学习算法。</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
-<h2 id="监督学习-1"><a href="#监督学习-1" class="headerlink" title="监督学习"></a>监督学习</h2><h3 id="监督学习的任务是："><a href="#监督学习的任务是：" class="headerlink" title="监督学习的任务是："></a>监督学习的任务是：</h3><p>1.给定由N个“输入-输出”对样例组成的训练集从给定的训练数据集中学习出一个函数（模型参数）</p>
-<p>2.当新的数据到来时，可以根据这个函数预测结果</p>
-<h3 id="分类与回归"><a href="#分类与回归" class="headerlink" title="分类与回归"></a>分类与回归</h3><p>分类问题的主要目的是预测分类标签，标签来自预定义的可选列表。分类问题可分为二分类和多分类。</p>
-<p>比如邮件系统，对于垃圾邮件的识别就是一个分类问题。</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%88%86%E7%B1%BB.png"></p>
-<p>回归任务的目标是预测一个连续值。</p>
-<p>例如，根据教育水平、年龄和居住地来预测一个人的年收入，预测的结果是一个金额数值。</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9B%9E%E5%BD%92.png"></p>
-<h2 id="K-折交叉验证"><a href="#K-折交叉验证" class="headerlink" title="K-折交叉验证"></a>K-折交叉验证</h2><p>思想：每个样本既作为训练数据，又作为测试数据</p>
-<blockquote>
-<p>将数据分成k个相等的子集</p>
-<p>执行k轮次学习，每一轮1&#x2F;k个数据作为测试数据，其他作为训练数据</p>
-</blockquote>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K.png"></p>
-<p>精度增加伴随着代价增加</p>
-<h2 id="过拟合-x2F-欠拟合"><a href="#过拟合-x2F-欠拟合" class="headerlink" title="过拟合&#x2F;欠拟合"></a>过拟合&#x2F;欠拟合</h2><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>拟合模型时，过分关注训练集的细节，训练集学习得到的目标函数在训练集上性能很好，在测试集上性能不高。</p>
-<p>训练出的模型太复杂，不能泛化到新数据上的模型就叫做过拟合。</p>
-<p>其实就是训练次数过多导致找到了太多只适用于训练集的特征，过于细化所以不能通用。</p>
-<h3 id="欠拟合"><a href="#欠拟合" class="headerlink" title="欠拟合"></a>欠拟合</h3><p>相反，如果模型过于简单，那么就可能无法抓住数据的全部内容以及数据中的变化。甚至可能模型在训练集上的表现也很差。也就是没要找到特征。</p>
-<h3 id="如何避免过拟合"><a href="#如何避免过拟合" class="headerlink" title="如何避免过拟合"></a>如何避免过拟合</h3><ol>
-<li>Early stopping （适当的stoppingcriterion）:</li>
-</ol>
-<p>   Early stopping便是一种迭代次数截断的方法来防止过拟</p>
-<p>   合的方法，即在模型对训练数据集迭代收敛之前停止迭代</p>
-<p>   来防止过拟合</p>
-<p>   2) 数据集扩增 : 数据机扩增即需要得到更多的符合要求</p>
-<p>   的数据，即和已有的数据是独立同分布的，或者近似独立</p>
-<p>   同分布的。一般方法有：从数据源头采集更多数据，复制</p>
-<p>   原有数据并加上随机噪声，重采样，根据当前数据集估计</p>
-<p>   数据分布参数，使用该分布产生更多数据等</p>
-<p>   3）正则化方法：一般有L1正则与L2正则等</p>
-<p>   4）Dropout：正则是通过在代价函数后面加上正则项来防</p>
-<p>   止模型过拟合的。而在神经网络中，有一种方法是通过修</p>
-<p>   改神经网络本身结构来实现的，其名为Dropout。</p>
-<h2 id="信息理论：熵"><a href="#信息理论：熵" class="headerlink" title="信息理论：熵"></a>信息理论：熵</h2><p>熵H(x)：衡量数据集的纯度</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5.png"></p>
-<p>熵曲线</p>
-<p>两个样本(P,N),p个正样本数，n个负样本数，p&#x3D;9,n&#x3D;5</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%9B%B2%E7%BA%BF.png"></p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%A0%B7%E4%BE%8B.png"></p>
-<h2 id="信息理论：属性选择"><a href="#信息理论：属性选择" class="headerlink" title="信息理论：属性选择"></a>信息理论：属性选择</h2><p>根据熵的定义，公平掷硬币的熵：</p>
-<p>$$<br>H(Fair)&#x3D;− (0.5log_2⁡0.5 +0.5  log_2⁡0.5 )&#x3D; 1<br>$$</p>
-<p>如果加载硬币，使之能掷出99%正面向上，则有</p>
-<p>$$<br>H(Loaded)&#x3D;− (0.99log_2⁡0.99+0. 01log_2⁡0.01) ≈0.08<br>$$</p>
-<p>设布尔变量以q的概率为真，则可定义该变量的熵为：</p>
-<p>$$<br>B(q)&#x3D;− (q log_2⁡q +(1-q)log_2⁡(1-q) )<br>$$</p>
-<p>因此</p>
-<p>$$<br>H(Loaded)&#x3D;B(0.99)≈0.08<br>$$</p>
-<p>一个训练数据集包含p个正样本,n个负样本，则目标属性在整个样例集上的熵为：</p>
-<p>$$<br>H(Goal)&#x3D; B(𝑝&#x2F;(𝑝+𝑛))<br>$$</p>
-<p>一个属性A的取值为A1,A2,…,Av,根据属性A的取值将训练数据集E分成E1,E2,…Ev,每个子集Ei有pi个正例和ni个反例，则选择属性A后，剩余的期望熵值为：</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%9F%E6%9C%9B%E7%86%B5%E5%80%BC.png"></p>
-<p>属性A的信息收益是<strong>熵的期望减少</strong>，即原有的熵值-属性A分裂后的熵值：</p>
-<p>$$<br>Gain(A)&#x3D; B(𝑝&#x2F;(𝑝+𝑛)) - H(A)<br>$$</p>
-<p>$$<br>Gain(Patrons)&#x3D; 1−[2&#x2F;12B(0&#x2F;2)+4&#x2F;12B(4&#x2F;4)+6&#x2F;12B(2&#x2F;6)]≈0.541</p>
-<p>$$</p>
-<p>$$<br>Gain(Type)&#x3D; 1−[2&#x2F;12B(1&#x2F;2)+2&#x2F;12B(1&#x2F;2)+4&#x2F;12B(2&#x2F;4)+4&#x2F;12B(2&#x2F;4)]&#x3D;0<br>$$</p>
-<p>$$<br>Gain(Patrons)&gt;Gain(Type)<br>$$</p>
-<p><strong>选择信息收益最大的属性进行分裂</strong></p>
-<h2 id="决策树剪枝"><a href="#决策树剪枝" class="headerlink" title="决策树剪枝"></a>决策树剪枝</h2><p>找到<strong>过度拟合</strong>的结点，删除该节点及其分支</p>
-<p>如果一个节点是过度拟合的，则该结点不同属性之下所含正样本的比例与整个集合的比例大致相同，<strong>pk&#x2F;(pk+nk)≈p&#x2F;(p+n)</strong></p>
+    <title>基本流水线</title>
+    <url>/2023/06/06/%E5%9F%BA%E6%9C%AC%E6%B5%81%E6%B0%B4%E7%BA%BF/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="基本流水线"><a href="#基本流水线" class="headerlink" title="基本流水线"></a>基本流水线</h2><h3 id="流水线的基本概念"><a href="#流水线的基本概念" class="headerlink" title="流水线的基本概念"></a>流水线的基本概念</h3><h4 id="一个任务可以分解成为k个子任务"><a href="#一个任务可以分解成为k个子任务" class="headerlink" title="一个任务可以分解成为k个子任务"></a>一个任务可以分解成为k个子任务</h4><ul>
+<li><p>k个子任务在k个不同阶段(使用不同的资源)运行</p>
+</li>
+<li><p>每个子任务执行需要1个单位时间</p>
+</li>
+<li><p>整个任务的执行时间为k倍单位时间</p>
+</li>
+</ul>
+<h4 id="流水线执行模式是重叠执行模式"><a href="#流水线执行模式是重叠执行模式" class="headerlink" title="流水线执行模式是重叠执行模式"></a>流水线执行模式是重叠执行模式</h4><ul>
+<li><p>k个流水段，并行执行k个不同任务</p>
+</li>
+<li><p>每个单位时间，一个任务进入&#x2F;离开流水线</p>
+</li>
+</ul>
+<p><img src="/2023/06/06/%E5%9F%BA%E6%9C%AC%E6%B5%81%E6%B0%B4%E7%BA%BF/%E6%B5%81%E6%B0%B4%E7%BA%BF.png"></p>
+<h3 id="同步流水线"><a href="#同步流水线" class="headerlink" title="同步流水线"></a>同步流水线</h3><ul>
+<li><p><strong>流水段之间采用时钟控制的寄存器文件</strong></p>
+</li>
+<li><p><strong>时钟上升沿到达时…</strong></p>
+</li>
+</ul>
+<p>-所有寄存器同时保存前一流水段的结果</p>
+<ul>
+<li><p><strong>流水段是组合逻辑电路</strong></p>
+</li>
+<li><p><strong>流水线设计中希望各段相对平衡</strong></p>
+</li>
+</ul>
+<p><img src="/2023/06/06/%E5%9F%BA%E6%9C%AC%E6%B5%81%E6%B0%B4%E7%BA%BF/%E6%B5%81%E6%B0%B4%E6%AE%B5.png"></p>
+<h3 id="流水线的性能"><a href="#流水线的性能" class="headerlink" title="流水线的性能"></a>流水线的性能</h3><p>• 设 τi&#x3D;time delay in stage Si</p>
+<p>• 时钟周期 τ &#x3D;max(τi) 为最长的流水段延迟</p>
+<p>• 时钟频率 f &#x3D; 1&#x2F;τ &#x3D; 1&#x2F;max(τi)</p>
+<p>• 流水线可以在k+n-1个时钟周期内完成n个任务</p>
+<p>  – 完成第一个任务需要 k个时钟周期</p>
+<p>  – 其他n-1个任务，在后续的n-1个时钟周期完成</p>
+<p>• K-段流水线的理想加速比（相对于串行执行）</p>
+<p><img src="/2023/06/06/%E5%9F%BA%E6%9C%AC%E6%B5%81%E6%B0%B4%E7%BA%BF/k%E6%AE%B5%E6%B5%81%E6%B0%B4%E7%BA%BF.png"></p>
+<h3 id="典型的RISC-5段指令流水"><a href="#典型的RISC-5段指令流水" class="headerlink" title="典型的RISC 5段指令流水"></a>典型的RISC 5段指令流水</h3><ul>
+<li><p><strong>五个流水段，每段的延迟为1个cycle</strong></p>
+</li>
+<li><p><strong>IF：取指阶段</strong></p>
+<p>-选择地址：下一条指令地址、转移地址</p>
+</li>
+<li><p><strong>ID：译码阶段</strong></p>
+<p>-确定控制信号并从寄存器文件中读取寄存器值</p>
+</li>
+<li><p><strong>EX：执行</strong></p>
+<p>-Load&#x2F;Store:计算有效地址</p>
+<p>-Branch：计算转移地址并确定转移方向</p>
+</li>
+<li><p><strong>MEM：存储器访问(仅Load和Store)</strong></p>
+</li>
+<li><p><strong>WB：结果写回</strong></p>
+</li>
+</ul>
+<p><img src="/2023/06/06/%E5%9F%BA%E6%9C%AC%E6%B5%81%E6%B0%B4%E7%BA%BF/RISC5.png"></p>
+<h3 id="流水线的可视化表示"><a href="#流水线的可视化表示" class="headerlink" title="流水线的可视化表示"></a>流水线的可视化表示</h3><h4 id="多条指令执行多个时钟周期"><a href="#多条指令执行多个时钟周期" class="headerlink" title="多条指令执行多个时钟周期"></a>多条指令执行多个时钟周期</h4><ul>
+<li><p>指令按程序从上到下排序</p>
+</li>
+<li><p>图中展示了每一时钟周期资源的使用情况</p>
+</li>
+<li><p>不同指令相邻阶段之间没有干扰</p>
+</li>
+</ul>
+<p><img src="/2023/06/06/%E5%9F%BA%E6%9C%AC%E6%B5%81%E6%B0%B4%E7%BA%BF/%E6%B5%81%E6%B0%B4%E7%BA%BF%E5%8F%AF%E8%A7%86%E5%8C%96.png"></p>
+<h3 id="指令流时序"><a href="#指令流时序" class="headerlink" title="指令流时序"></a>指令流时序</h3><h4 id="时序图展示："><a href="#时序图展示：" class="headerlink" title="时序图展示："></a>时序图展示：</h4><ul>
+<li>每个时钟周期指令所使用的流水段情况</li>
+</ul>
+<h4 id="指令流在采用5段流水线执行模式的执行情况"><a href="#指令流在采用5段流水线执行模式的执行情况" class="headerlink" title="指令流在采用5段流水线执行模式的执行情况"></a>指令流在采用5段流水线执行模式的执行情况</h4><p><img src="/2023/06/06/%E5%9F%BA%E6%9C%AC%E6%B5%81%E6%B0%B4%E7%BA%BF/%E6%8C%87%E4%BB%A4%E6%B5%81%E6%97%B6%E5%BA%8F.png"></p>
 ]]></content>
       <categories>
-        <category>人工智能</category>
+        <category>计算机体系结构</category>
       </categories>
-  </entry>
-  <entry>
-    <title>监听法和目录法</title>
-    <url>/2023/05/27/%E7%9B%91%E5%90%AC%E6%B3%95%E5%92%8C%E7%9B%AE%E5%BD%95%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      <tags>
+        <tag>流水线</tag>
+      </tags>
   </entry>
   <entry>
     <title>计算机体系结构-Tomasulo算法</title>
@@ -280,6 +291,87 @@
       <tags>
         <tag>指令的动态调度</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>监听法和目录法</title>
+    <url>/2023/05/27/%E7%9B%91%E5%90%AC%E6%B3%95%E5%92%8C%E7%9B%AE%E5%BD%95%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>机器学习</title>
+    <url>/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="学习概述"><a href="#学习概述" class="headerlink" title="学习概述"></a>学习概述</h1><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p>机器可以自动”学习”的算法，即从<strong>数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。</strong></p>
+<h2 id="学习的反馈类型"><a href="#学习的反馈类型" class="headerlink" title="学习的反馈类型"></a>学习的反馈类型</h2><h3 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h3><p>不提供任何的显示反馈，比如：KNN聚类算法</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
+<h3 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h3><p>提供“输入-输出”对，学习从输入到输出的映射函数。比如：贝叶斯网络，人工神经网络，决策树</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
+<h3 id="半监督学习"><a href="#半监督学习" class="headerlink" title="半监督学习"></a>半监督学习</h3><p>提供少量的“输入-输出”对，大部分样本未标注。基于图的学习算法。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
+<h2 id="监督学习-1"><a href="#监督学习-1" class="headerlink" title="监督学习"></a>监督学习</h2><h3 id="监督学习的任务是："><a href="#监督学习的任务是：" class="headerlink" title="监督学习的任务是："></a>监督学习的任务是：</h3><p>1.给定由N个“输入-输出”对样例组成的训练集从给定的训练数据集中学习出一个函数（模型参数）</p>
+<p>2.当新的数据到来时，可以根据这个函数预测结果</p>
+<h3 id="分类与回归"><a href="#分类与回归" class="headerlink" title="分类与回归"></a>分类与回归</h3><p>分类问题的主要目的是预测分类标签，标签来自预定义的可选列表。分类问题可分为二分类和多分类。</p>
+<p>比如邮件系统，对于垃圾邮件的识别就是一个分类问题。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%88%86%E7%B1%BB.png"></p>
+<p>回归任务的目标是预测一个连续值。</p>
+<p>例如，根据教育水平、年龄和居住地来预测一个人的年收入，预测的结果是一个金额数值。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9B%9E%E5%BD%92.png"></p>
+<h2 id="K-折交叉验证"><a href="#K-折交叉验证" class="headerlink" title="K-折交叉验证"></a>K-折交叉验证</h2><p>思想：每个样本既作为训练数据，又作为测试数据</p>
+<blockquote>
+<p>将数据分成k个相等的子集</p>
+<p>执行k轮次学习，每一轮1&#x2F;k个数据作为测试数据，其他作为训练数据</p>
+</blockquote>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K.png"></p>
+<p>精度增加伴随着代价增加</p>
+<h2 id="过拟合-x2F-欠拟合"><a href="#过拟合-x2F-欠拟合" class="headerlink" title="过拟合&#x2F;欠拟合"></a>过拟合&#x2F;欠拟合</h2><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>拟合模型时，过分关注训练集的细节，训练集学习得到的目标函数在训练集上性能很好，在测试集上性能不高。</p>
+<p>训练出的模型太复杂，不能泛化到新数据上的模型就叫做过拟合。</p>
+<p>其实就是训练次数过多导致找到了太多只适用于训练集的特征，过于细化所以不能通用。</p>
+<h3 id="欠拟合"><a href="#欠拟合" class="headerlink" title="欠拟合"></a>欠拟合</h3><p>相反，如果模型过于简单，那么就可能无法抓住数据的全部内容以及数据中的变化。甚至可能模型在训练集上的表现也很差。也就是没要找到特征。</p>
+<h3 id="如何避免过拟合"><a href="#如何避免过拟合" class="headerlink" title="如何避免过拟合"></a>如何避免过拟合</h3><ol>
+<li>Early stopping （适当的stoppingcriterion）:</li>
+</ol>
+<p>   Early stopping便是一种迭代次数截断的方法来防止过拟</p>
+<p>   合的方法，即在模型对训练数据集迭代收敛之前停止迭代</p>
+<p>   来防止过拟合</p>
+<p>   2) 数据集扩增 : 数据机扩增即需要得到更多的符合要求</p>
+<p>   的数据，即和已有的数据是独立同分布的，或者近似独立</p>
+<p>   同分布的。一般方法有：从数据源头采集更多数据，复制</p>
+<p>   原有数据并加上随机噪声，重采样，根据当前数据集估计</p>
+<p>   数据分布参数，使用该分布产生更多数据等</p>
+<p>   3）正则化方法：一般有L1正则与L2正则等</p>
+<p>   4）Dropout：正则是通过在代价函数后面加上正则项来防</p>
+<p>   止模型过拟合的。而在神经网络中，有一种方法是通过修</p>
+<p>   改神经网络本身结构来实现的，其名为Dropout。</p>
+<h2 id="信息理论：熵"><a href="#信息理论：熵" class="headerlink" title="信息理论：熵"></a>信息理论：熵</h2><p>熵H(x)：衡量数据集的纯度</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5.png"></p>
+<p>熵曲线</p>
+<p>两个样本(P,N),p个正样本数，n个负样本数，p&#x3D;9,n&#x3D;5</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%9B%B2%E7%BA%BF.png"></p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%A0%B7%E4%BE%8B.png"></p>
+<h2 id="信息理论：属性选择"><a href="#信息理论：属性选择" class="headerlink" title="信息理论：属性选择"></a>信息理论：属性选择</h2><p>根据熵的定义，公平掷硬币的熵：</p>
+<p>$$<br>H(Fair)&#x3D;− (0.5log_2⁡0.5 +0.5  log_2⁡0.5 )&#x3D; 1<br>$$</p>
+<p>如果加载硬币，使之能掷出99%正面向上，则有</p>
+<p>$$<br>H(Loaded)&#x3D;− (0.99log_2⁡0.99+0. 01log_2⁡0.01) ≈0.08<br>$$</p>
+<p>设布尔变量以q的概率为真，则可定义该变量的熵为：</p>
+<p>$$<br>B(q)&#x3D;− (q log_2⁡q +(1-q)log_2⁡(1-q) )<br>$$</p>
+<p>因此</p>
+<p>$$<br>H(Loaded)&#x3D;B(0.99)≈0.08<br>$$</p>
+<p>一个训练数据集包含p个正样本,n个负样本，则目标属性在整个样例集上的熵为：</p>
+<p>$$<br>H(Goal)&#x3D; B(𝑝&#x2F;(𝑝+𝑛))<br>$$</p>
+<p>一个属性A的取值为A1,A2,…,Av,根据属性A的取值将训练数据集E分成E1,E2,…Ev,每个子集Ei有pi个正例和ni个反例，则选择属性A后，剩余的期望熵值为：</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%9F%E6%9C%9B%E7%86%B5%E5%80%BC.png"></p>
+<p>属性A的信息收益是<strong>熵的期望减少</strong>，即原有的熵值-属性A分裂后的熵值：</p>
+<p>$$<br>Gain(A)&#x3D; B(𝑝&#x2F;(𝑝+𝑛)) - H(A)<br>$$</p>
+<p>$$<br>Gain(Patrons)&#x3D; 1−[2&#x2F;12B(0&#x2F;2)+4&#x2F;12B(4&#x2F;4)+6&#x2F;12B(2&#x2F;6)]≈0.541</p>
+<p>$$</p>
+<p>$$<br>Gain(Type)&#x3D; 1−[2&#x2F;12B(1&#x2F;2)+2&#x2F;12B(1&#x2F;2)+4&#x2F;12B(2&#x2F;4)+4&#x2F;12B(2&#x2F;4)]&#x3D;0<br>$$</p>
+<p>$$<br>Gain(Patrons)&gt;Gain(Type)<br>$$</p>
+<p><strong>选择信息收益最大的属性进行分裂</strong></p>
+<h2 id="决策树剪枝"><a href="#决策树剪枝" class="headerlink" title="决策树剪枝"></a>决策树剪枝</h2><p>找到<strong>过度拟合</strong>的结点，删除该节点及其分支</p>
+<p>如果一个节点是过度拟合的，则该结点不同属性之下所含正样本的比例与整个集合的比例大致相同，<strong>pk&#x2F;(pk+nk)≈p&#x2F;(p+n)</strong></p>
+]]></content>
+      <categories>
+        <category>人工智能</category>
+      </categories>
   </entry>
   <entry>
     <title>计算机体系结构-记分牌ScoreBoard</title>
