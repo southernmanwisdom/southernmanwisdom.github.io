@@ -3,7 +3,7 @@
   <entry>
     <title>数组和链表</title>
     <url>/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="基础知识-数组与链表"><a href="#基础知识-数组与链表" class="headerlink" title="基础知识-数组与链表"></a>基础知识-数组与链表</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><strong>数组</strong>是被操作系统分配的一个内存块，用来保存数组的元素。通过使用特定元素的索引作为数组下标，可以在常数时间内访问数组元素。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="基础知识-数组与链表"><a href="#基础知识-数组与链表" class="headerlink" title="基础知识-数组与链表"></a>基础知识-数组与链表</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><strong>数组</strong>是被操作系统分配的一个内存块，用来保存数组的元素。通过使用特定元素的索引作为数组下标，可以在常数时间内访问数组元素。</p>
 <h3 id="数组的优点"><a href="#数组的优点" class="headerlink" title="数组的优点"></a>数组的优点</h3><blockquote>
 <p>简单且易用</p>
 <p>访问元素快(常数时间)</p>
@@ -38,7 +38,7 @@
   <entry>
     <title>6月份学习计划</title>
     <url>/2023/06/13/6%E6%9C%88%E4%BB%BD%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>现在是6月13日，已经距离期末考试的结束有过一段时间了，而且休息也休息过了，接下来就是彻底投入到考研的准备。因为避免期末不挂科，所以用了半个多月的时间一直在复习，已经很久没有碰过考研的学习了，数学和英语都有点忘却。因为首先17日要考六级，所以这几天还是以英语的复习为主，过几天再重新开始数学的复习，而且这次考试又把我分到财院校区去了，这下又得提前踩好点。另外就是18日要开始小学期了，这次小学期我选择的是数据库相关的知识，可以提前学习。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>现在是6月13日，已经距离期末考试的结束有过一段时间了，而且休息也休息过了，接下来就是彻底投入到考研的准备。因为避免期末不挂科，所以用了半个多月的时间一直在复习，已经很久没有碰过考研的学习了，数学和英语都有点忘却。因为首先17日要考六级，所以这几天还是以英语的复习为主，过几天再重新开始数学的复习，而且这次考试又把我分到财院校区去了，这下又得提前踩好点。另外就是18日要开始小学期了，这次小学期我选择的是数据库相关的知识，可以提前学习。</p>
 <p>6月还剩下半个月，我得把数学第二轮尽快搞完，因为还有线代没学，并且政治8、9月份的时候要开始了，后面就不会分到数学太多的时间，所以得尽快完成数学的深入学习。</p>
 <p>另外就是英语，很久没有搞了，得重新将英语的学习回归日常，另外现在可以多做一些原题了，计划是每周做2篇阅读题。</p>
 <p>数据结构的学习还是想放到下一个月，7月份已经放暑假了，希望能够留校，这样就可以在图书馆里学习，家里确实不适合学习，也没有免费的空调蹭。</p>
@@ -50,7 +50,7 @@
   <entry>
     <title>基本流水线</title>
     <url>/2023/06/06/%E5%9F%BA%E6%9C%AC%E6%B5%81%E6%B0%B4%E7%BA%BF/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="基本流水线"><a href="#基本流水线" class="headerlink" title="基本流水线"></a>基本流水线</h2><h3 id="流水线的基本概念"><a href="#流水线的基本概念" class="headerlink" title="流水线的基本概念"></a>流水线的基本概念</h3><h4 id="一个任务可以分解成为k个子任务"><a href="#一个任务可以分解成为k个子任务" class="headerlink" title="一个任务可以分解成为k个子任务"></a>一个任务可以分解成为k个子任务</h4><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="基本流水线"><a href="#基本流水线" class="headerlink" title="基本流水线"></a>基本流水线</h2><h3 id="流水线的基本概念"><a href="#流水线的基本概念" class="headerlink" title="流水线的基本概念"></a>流水线的基本概念</h3><h4 id="一个任务可以分解成为k个子任务"><a href="#一个任务可以分解成为k个子任务" class="headerlink" title="一个任务可以分解成为k个子任务"></a>一个任务可以分解成为k个子任务</h4><ul>
 <li><p>k个子任务在k个不同阶段(使用不同的资源)运行</p>
 </li>
 <li><p>每个子任务执行需要1个单位时间</p>
@@ -130,7 +130,7 @@
   <entry>
     <title>机器学习</title>
     <url>/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="学习概述"><a href="#学习概述" class="headerlink" title="学习概述"></a>学习概述</h1><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p>机器可以自动”学习”的算法，即从<strong>数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。</strong></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="学习概述"><a href="#学习概述" class="headerlink" title="学习概述"></a>学习概述</h1><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p>机器可以自动”学习”的算法，即从<strong>数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。</strong></p>
 <h2 id="学习的反馈类型"><a href="#学习的反馈类型" class="headerlink" title="学习的反馈类型"></a>学习的反馈类型</h2><h3 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h3><p>不提供任何的显示反馈，比如：KNN聚类算法</p>
 <p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
 <h3 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h3><p>提供“输入-输出”对，学习从输入到输出的映射函数。比如：贝叶斯网络，人工神经网络，决策树</p>
@@ -206,7 +206,7 @@
   <entry>
     <title>朴素贝叶斯分类算法</title>
     <url>/2023/05/27/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h1><p>贝叶斯分类是一类分类算法的总称，算法以贝叶斯定理为基础，所以称为贝叶斯分类。本文将首先介绍分类问题，对分类问题进行一个正式的定义。然后，介绍贝叶斯分类算法的基础——贝叶斯定理。最后，通过实例讨论贝叶斯分类中最简单的一种：朴素贝叶斯分类。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h1><p>贝叶斯分类是一类分类算法的总称，算法以贝叶斯定理为基础，所以称为贝叶斯分类。本文将首先介绍分类问题，对分类问题进行一个正式的定义。然后，介绍贝叶斯分类算法的基础——贝叶斯定理。最后，通过实例讨论贝叶斯分类中最简单的一种：朴素贝叶斯分类。</p>
 <h1 id="二、分类问题介绍"><a href="#二、分类问题介绍" class="headerlink" title="二、分类问题介绍"></a>二、分类问题介绍</h1><p>分类，顾名思义，就是把集合分出类别来，比如人类可以分为黄种人、白种人、黑种人。</p>
 <p>在数学方面可以做如下定义：</p>
 <p>已知集合：</p>
@@ -277,12 +277,12 @@
   <entry>
     <title>监听法和目录法</title>
     <url>/2023/05/27/%E7%9B%91%E5%90%AC%E6%B3%95%E5%92%8C%E7%9B%AE%E5%BD%95%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
   </entry>
   <entry>
     <title>计算机体系结构-Tomasulo算法</title>
     <url>/2023/05/26/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84-Tomasulo%E7%AE%97%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="1-与记分牌算法的比较"><a href="#1-与记分牌算法的比较" class="headerlink" title="1.与记分牌算法的比较"></a>1.与记分牌算法的比较</h2><h3 id="1-1-重新审视数据冒险"><a href="#1-1-重新审视数据冒险" class="headerlink" title="1.1    重新审视数据冒险"></a>1.1    重新审视数据冒险</h3><p><strong>假数据冒险影响了记分牌算法的乱序性能</strong>。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-与记分牌算法的比较"><a href="#1-与记分牌算法的比较" class="headerlink" title="1.与记分牌算法的比较"></a>1.与记分牌算法的比较</h2><h3 id="1-1-重新审视数据冒险"><a href="#1-1-重新审视数据冒险" class="headerlink" title="1.1    重新审视数据冒险"></a>1.1    重新审视数据冒险</h3><p><strong>假数据冒险影响了记分牌算法的乱序性能</strong>。</p>
 <p>那么什么是假数据冒险呢？</p>
 <p>我们都知道，数据冒险有WAW,WAR,RAR,RAW这四种，而其中RAR其实在流水线中并没有影响指令的执行，所以可以把它忽略。</p>
 <p>在剩下三个之中，只有RAW“写后读”才是真冒险，而WAR和WAW都是假冒险。为什么呢？因为这两种冒险都是在第一个操作后进行写操作，说明写操作的目标寄存器是被使用的状态，所以必须阻塞自己才能不引发冲突。而解决方法其实很简单，只要把写操作的目标寄存器改变成没有冲突的寄存器就可以解决。</p>
@@ -361,7 +361,7 @@
   <entry>
     <title>计算机体系结构-记分牌ScoreBoard</title>
     <url>/2023/05/25/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84-%E8%AE%B0%E5%88%86%E7%89%8CScoreBoard/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="1-什么是记分牌"><a href="#1-什么是记分牌" class="headerlink" title="1.什么是记分牌"></a>1.什么是记分牌</h2><p>首先需要认识到一个事实：<strong>顺序执行的处理器有瑕疵</strong></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-什么是记分牌"><a href="#1-什么是记分牌" class="headerlink" title="1.什么是记分牌"></a>1.什么是记分牌</h2><p>首先需要认识到一个事实：<strong>顺序执行的处理器有瑕疵</strong></p>
 <p>比如说lw指令后面跟着一连串与它无关的指令，但是lw指令发生了 data cache miss 的情况，导致了必须访问主存，所以就很慢，但是它卡在访存阶段几十上百个周期，如果是顺序执行，后面的指令会等他结束在执行，效率太低，<strong>如果想要实现“继续执行”，即后面的指令“绕过” lw 指令继续执行，那么就需要处理器支持乱序</strong></p>
 <h3 id="1-1-乱序执行"><a href="#1-1-乱序执行" class="headerlink" title="1.1 乱序执行"></a>1.1 乱序执行</h3><p>顺序执行的效率太慢，如果有一条指令阻塞，那么后面所有的指令都会阻塞，所以设计师开了几条近道，让后面的指令可以绕过前面的指令，从而继续执行。</p>
 <p>在乱序情况下，<strong>只要一条指令所需要的数据准备好了，那么就执行这条指令</strong>，而不用像顺序执行一样既要准备好数据，又要前面的指令把”路“让出来。</p>
@@ -422,7 +422,7 @@
   <entry>
     <title>哥们的第一篇博客</title>
     <url>/2023/05/24/%E5%93%A5%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2-%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id><a href="#" class="headerlink" title></a></h1><h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><p>其实我开始博客的时间已经相当晚了，现在已经是大三的下学期即将画上句号，按理说能学得都已经学完了，现在正是把学到的东西实践的时刻了。可惜我学艺不精，所以决定考研这条路，也就意味着我的专业课知识得从头来过，不过这也没什么好后悔的，正好以这为教训，引以为鉴。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id><a href="#" class="headerlink" title></a></h1><h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><p>其实我开始博客的时间已经相当晚了，现在已经是大三的下学期即将画上句号，按理说能学得都已经学完了，现在正是把学到的东西实践的时刻了。可惜我学艺不精，所以决定考研这条路，也就意味着我的专业课知识得从头来过，不过这也没什么好后悔的，正好以这为教训，引以为鉴。</p>
 <blockquote>
 <p>种一棵树最好的时间是十年前，其次是现在。</p>
 </blockquote>
@@ -435,7 +435,7 @@
   <entry>
     <title>Hello World</title>
     <url>/2023/05/23/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
