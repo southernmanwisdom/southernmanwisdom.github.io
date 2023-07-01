@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>最近的一些烦恼或者想法</title>
+    <url>/2023/07/01/%E6%9C%80%E8%BF%91%E7%9A%84%E4%B8%80%E4%BA%9B%E7%83%A6%E6%81%BC%E6%88%96%E8%80%85%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近看了很多的关于解放战争的视频，深感现在中国的不易。但是又同时看到了地方债的问题，产业转型升级的困难和许多地方政府出现的问题，比如青海湖要围起来。每当看到底下的评论区阴阳怪气时总是颇感难受，但是基于实事求是的原则来说，这些中很多都是事实，不能因为别人的过度放大而忽视。我们是“幸运”的一代，生长于经济增长的大环境中，但是在即将登上历史舞台的时候遇到了疫情，从而经济下行，就业困难。有时候总在想，一代人有一代人的使命，或许我们这一代人的使命就是带领中国走出现在的困境迈出下一步，但是又深感无力，因为自己的力量微薄并且不算努力，能力有限，就只能干着急。</p>
+<p>我和我爸其实也讨论过现在的困难处境，但是我爸也告诉我说这些事情有必要了解，因为大环境的改变会影响所有人，但是又不可过度关注，因为自己改变不了这个世界，我只能先改变自己，先把自己的事情做好，再来改变世界。过去人们的艰苦奋斗造就了现在中国人的辉煌，我就不信现在还能比过去更加的困难吗。雄关漫道真如铁，而今迈步从头越。在前人的基础上迈出属于自己的一步吧。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>数组和链表</title>
     <url>/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="基础知识-数组与链表"><a href="#基础知识-数组与链表" class="headerlink" title="基础知识-数组与链表"></a>基础知识-数组与链表</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><strong>数组</strong>是被操作系统分配的一个内存块，用来保存数组的元素。通过使用特定元素的索引作为数组下标，可以在常数时间内访问数组元素。</p>
@@ -27,6 +34,7 @@
 </blockquote>
 <h2 id="物理实现"><a href="#物理实现" class="headerlink" title="物理实现"></a>物理实现</h2><p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E6%95%B0%E7%BB%84.png"></p>
 <p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8.png"></p>
+<h2 id="补充-7-1"><a href="#补充-7-1" class="headerlink" title="补充-7.1"></a>补充-7.1</h2><p>顺序表的实现就是用数组完成的，优势就在于访问数据的时候直接根据下标就可以快速寻找，而链表不行，只能回归表头再顺序执行，消耗的时间比较长。但是再增删数据的情况下，数组就明显不如链表，数组必须移动增删的数据后面的数据，而链表只需要把数据域后面的指针改一下指向的方向就可以了。</p>
 ]]></content>
       <categories>
         <category>数据结构</category>
