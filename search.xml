@@ -1,49 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>最近的一些烦恼或者想法</title>
-    <url>/2023/07/01/%E6%9C%80%E8%BF%91%E7%9A%84%E4%B8%80%E4%BA%9B%E7%83%A6%E6%81%BC%E6%88%96%E8%80%85%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近看了很多的关于解放战争的视频，深感现在中国的不易。但是又同时看到了地方债的问题，产业转型升级的困难和许多地方政府出现的问题，比如青海湖要围起来。每当看到底下的评论区阴阳怪气时总是颇感难受，但是基于实事求是的原则来说，这些中很多都是事实，不能因为别人的过度放大而忽视。我们是“幸运”的一代，生长于经济增长的大环境中，但是在即将登上历史舞台的时候遇到了疫情，从而经济下行，就业困难。有时候总在想，一代人有一代人的使命，或许我们这一代人的使命就是带领中国走出现在的困境迈出下一步，但是又深感无力，因为自己的力量微薄并且不算努力，能力有限，就只能干着急。</p>
-<p>我和我爸其实也讨论过现在的困难处境，但是我爸也告诉我说这些事情有必要了解，因为大环境的改变会影响所有人，但是又不可过度关注，因为自己改变不了这个世界，我只能先改变自己，先把自己的事情做好，再来改变世界。过去人们的艰苦奋斗造就了现在中国人的辉煌，我就不信现在还能比过去更加的困难吗。雄关漫道真如铁，而今迈步从头越。在前人的基础上迈出属于自己的一步吧。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>数组和链表</title>
-    <url>/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="基础知识-数组与链表"><a href="#基础知识-数组与链表" class="headerlink" title="基础知识-数组与链表"></a>基础知识-数组与链表</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><strong>数组</strong>是被操作系统分配的一个内存块，用来保存数组的元素。通过使用特定元素的索引作为数组下标，可以在常数时间内访问数组元素。</p>
-<h3 id="数组的优点"><a href="#数组的优点" class="headerlink" title="数组的优点"></a>数组的优点</h3><blockquote>
-<p>简单且易用</p>
-<p>访问元素快(常数时间)</p>
-</blockquote>
-<h3 id="数组的缺点"><a href="#数组的缺点" class="headerlink" title="数组的缺点"></a>数组的缺点</h3><blockquote>
-<p>大小固定：数组的大小是静态的（要在使用前指定数组的大小）</p>
-<p>分配一个块：数组初始化分配空间时，有时不可能分配能存储整个数组的内存（如果数组的大小太大）</p>
-<p>基于位置的插入操作实现复杂</p>
-</blockquote>
-<h2 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h2><p>链表是一种用于存储数据集合的数据结构。链表中相邻连续元素之间通过指针链接，最后一个元素的后继指针的值为NULL。</p>
-<h3 id="链表的优点"><a href="#链表的优点" class="headerlink" title="链表的优点"></a>链表的优点</h3><blockquote>
-<p>链表可以在常数时间拓展</p>
-<p>在程序执行过程中，链表的大小可以增长或减小</p>
-<p>链表的空间能够按需分配</p>
-<p>没有内存空间的浪费</p>
-</blockquote>
-<h3 id="链表的缺点"><a href="#链表的缺点" class="headerlink" title="链表的缺点"></a>链表的缺点</h3><blockquote>
-<p>链表的主要缺点在于访问单个元素的时间开销问题</p>
-<p>存储空间的离散性降低了元素的存储效率</p>
-<p>链表中的指针需要额外的内存开销</p>
-</blockquote>
-<h2 id="物理实现"><a href="#物理实现" class="headerlink" title="物理实现"></a>物理实现</h2><p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E6%95%B0%E7%BB%84.png"></p>
-<p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8.png"></p>
-<h2 id="补充-7-1"><a href="#补充-7-1" class="headerlink" title="补充-7.1"></a>补充-7.1</h2><p>顺序表的实现就是用数组完成的，优势就在于访问数据的时候直接根据下标就可以快速寻找，而链表不行，只能回归表头再顺序执行，消耗的时间比较长。但是再增删数据的情况下，数组就明显不如链表，数组必须移动增删的数据后面的数据，而链表只需要把数据域后面的指针改一下指向的方向就可以了。</p>
-]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>线性表</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>6月份学习计划</title>
     <url>/2023/06/13/6%E6%9C%88%E4%BB%BD%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>现在是6月13日，已经距离期末考试的结束有过一段时间了，而且休息也休息过了，接下来就是彻底投入到考研的准备。因为避免期末不挂科，所以用了半个多月的时间一直在复习，已经很久没有碰过考研的学习了，数学和英语都有点忘却。因为首先17日要考六级，所以这几天还是以英语的复习为主，过几天再重新开始数学的复习，而且这次考试又把我分到财院校区去了，这下又得提前踩好点。另外就是18日要开始小学期了，这次小学期我选择的是数据库相关的知识，可以提前学习。</p>
@@ -54,6 +11,37 @@
       <categories>
         <category>计划</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/05/23/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>哥们的第一篇博客</title>
+    <url>/2023/05/24/%E5%93%A5%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2-%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id><a href="#" class="headerlink" title></a></h1><h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><p>其实我开始博客的时间已经相当晚了，现在已经是大三的下学期即将画上句号，按理说能学得都已经学完了，现在正是把学到的东西实践的时刻了。可惜我学艺不精，所以决定考研这条路，也就意味着我的专业课知识得从头来过，不过这也没什么好后悔的，正好以这为教训，引以为鉴。</p>
+<blockquote>
+<p>种一棵树最好的时间是十年前，其次是现在。</p>
+</blockquote>
+<p>准备搭建博客的目的也是为此，决定将我学到的东西分享到网上，正好督促我自己的学习进度，并且这种文书工作我也并不讨厌，可以说得上相得益彰了。总之，学习的路很长，漫漫长路从脚下开始。从今天开始我会将一些学习笔记、不那么隐私的生活感悟写进我的博客，如果你看到了，请付之一笑，这些只不过是我年少的妄语，随着时间的推移，身份的改变，我自己肯定也会改变的，再回过头来看说不定也觉得现在的自己年轻幼稚。</p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
   </entry>
   <entry>
     <title>基本流水线</title>
@@ -136,80 +124,69 @@
       </tags>
   </entry>
   <entry>
-    <title>机器学习</title>
-    <url>/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="学习概述"><a href="#学习概述" class="headerlink" title="学习概述"></a>学习概述</h1><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p>机器可以自动”学习”的算法，即从<strong>数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。</strong></p>
-<h2 id="学习的反馈类型"><a href="#学习的反馈类型" class="headerlink" title="学习的反馈类型"></a>学习的反馈类型</h2><h3 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h3><p>不提供任何的显示反馈，比如：KNN聚类算法</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
-<h3 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h3><p>提供“输入-输出”对，学习从输入到输出的映射函数。比如：贝叶斯网络，人工神经网络，决策树</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
-<h3 id="半监督学习"><a href="#半监督学习" class="headerlink" title="半监督学习"></a>半监督学习</h3><p>提供少量的“输入-输出”对，大部分样本未标注。基于图的学习算法。</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
-<h2 id="监督学习-1"><a href="#监督学习-1" class="headerlink" title="监督学习"></a>监督学习</h2><h3 id="监督学习的任务是："><a href="#监督学习的任务是：" class="headerlink" title="监督学习的任务是："></a>监督学习的任务是：</h3><p>1.给定由N个“输入-输出”对样例组成的训练集从给定的训练数据集中学习出一个函数（模型参数）</p>
-<p>2.当新的数据到来时，可以根据这个函数预测结果</p>
-<h3 id="分类与回归"><a href="#分类与回归" class="headerlink" title="分类与回归"></a>分类与回归</h3><p>分类问题的主要目的是预测分类标签，标签来自预定义的可选列表。分类问题可分为二分类和多分类。</p>
-<p>比如邮件系统，对于垃圾邮件的识别就是一个分类问题。</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%88%86%E7%B1%BB.png"></p>
-<p>回归任务的目标是预测一个连续值。</p>
-<p>例如，根据教育水平、年龄和居住地来预测一个人的年收入，预测的结果是一个金额数值。</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9B%9E%E5%BD%92.png"></p>
-<h2 id="K-折交叉验证"><a href="#K-折交叉验证" class="headerlink" title="K-折交叉验证"></a>K-折交叉验证</h2><p>思想：每个样本既作为训练数据，又作为测试数据</p>
+    <title>实习游记</title>
+    <url>/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h1><p>21点出发长沙火车站，我几乎没有坐过绿皮火车，唯有的记忆就是初一的时候从厦门往来坐了次卧铺，感觉空间还行，和朋友们打牌看书就欢快的度过了一天一夜。并没有感受到采访时经常提到的人们乘坐绿皮火车回家的辛苦。</p>
 <blockquote>
-<p>将数据分成k个相等的子集</p>
-<p>执行k轮次学习，每一轮1&#x2F;k个数据作为测试数据，其他作为训练数据</p>
+<p>那次的厦门之行其实没有太多值得回忆的地方，可能是因为那时候还很小，又或者景观虽然美丽但是却没有太多的感触，可能身边的朋友比美景更重要。记忆比较深刻的大概是和mhy和zjy跑到厦门大学的书店买了纪念品和几本书——《洗脑》《反洗脑》《死神永生》，前面两本书后来被我捐到初中的图书馆里面了。</p>
 </blockquote>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K.png"></p>
-<p>精度增加伴随着代价增加</p>
-<h2 id="过拟合-x2F-欠拟合"><a href="#过拟合-x2F-欠拟合" class="headerlink" title="过拟合&#x2F;欠拟合"></a>过拟合&#x2F;欠拟合</h2><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>拟合模型时，过分关注训练集的细节，训练集学习得到的目标函数在训练集上性能很好，在测试集上性能不高。</p>
-<p>训练出的模型太复杂，不能泛化到新数据上的模型就叫做过拟合。</p>
-<p>其实就是训练次数过多导致找到了太多只适用于训练集的特征，过于细化所以不能通用。</p>
-<h3 id="欠拟合"><a href="#欠拟合" class="headerlink" title="欠拟合"></a>欠拟合</h3><p>相反，如果模型过于简单，那么就可能无法抓住数据的全部内容以及数据中的变化。甚至可能模型在训练集上的表现也很差。也就是没要找到特征。</p>
-<h3 id="如何避免过拟合"><a href="#如何避免过拟合" class="headerlink" title="如何避免过拟合"></a>如何避免过拟合</h3><ol>
-<li>Early stopping （适当的stoppingcriterion）:</li>
-</ol>
-<p>   Early stopping便是一种迭代次数截断的方法来防止过拟</p>
-<p>   合的方法，即在模型对训练数据集迭代收敛之前停止迭代</p>
-<p>   来防止过拟合</p>
-<p>   2) 数据集扩增 : 数据机扩增即需要得到更多的符合要求</p>
-<p>   的数据，即和已有的数据是独立同分布的，或者近似独立</p>
-<p>   同分布的。一般方法有：从数据源头采集更多数据，复制</p>
-<p>   原有数据并加上随机噪声，重采样，根据当前数据集估计</p>
-<p>   数据分布参数，使用该分布产生更多数据等</p>
-<p>   3）正则化方法：一般有L1正则与L2正则等</p>
-<p>   4）Dropout：正则是通过在代价函数后面加上正则项来防</p>
-<p>   止模型过拟合的。而在神经网络中，有一种方法是通过修</p>
-<p>   改神经网络本身结构来实现的，其名为Dropout。</p>
-<h2 id="信息理论：熵"><a href="#信息理论：熵" class="headerlink" title="信息理论：熵"></a>信息理论：熵</h2><p>熵H(x)：衡量数据集的纯度</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5.png"></p>
-<p>熵曲线</p>
-<p>两个样本(P,N),p个正样本数，n个负样本数，p&#x3D;9,n&#x3D;5</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%9B%B2%E7%BA%BF.png"></p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%A0%B7%E4%BE%8B.png"></p>
-<h2 id="信息理论：属性选择"><a href="#信息理论：属性选择" class="headerlink" title="信息理论：属性选择"></a>信息理论：属性选择</h2><p>根据熵的定义，公平掷硬币的熵：</p>
-<p>$$<br>H(Fair)&#x3D;− (0.5log_2⁡0.5 +0.5  log_2⁡0.5 )&#x3D; 1<br>$$</p>
-<p>如果加载硬币，使之能掷出99%正面向上，则有</p>
-<p>$$<br>H(Loaded)&#x3D;− (0.99log_2⁡0.99+0. 01log_2⁡0.01) ≈0.08<br>$$</p>
-<p>设布尔变量以q的概率为真，则可定义该变量的熵为：</p>
-<p>$$<br>B(q)&#x3D;− (q log_2⁡q +(1-q)log_2⁡(1-q) )<br>$$</p>
-<p>因此</p>
-<p>$$<br>H(Loaded)&#x3D;B(0.99)≈0.08<br>$$</p>
-<p>一个训练数据集包含p个正样本,n个负样本，则目标属性在整个样例集上的熵为：</p>
-<p>$$<br>H(Goal)&#x3D; B(𝑝&#x2F;(𝑝+𝑛))<br>$$</p>
-<p>一个属性A的取值为A1,A2,…,Av,根据属性A的取值将训练数据集E分成E1,E2,…Ev,每个子集Ei有pi个正例和ni个反例，则选择属性A后，剩余的期望熵值为：</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%9F%E6%9C%9B%E7%86%B5%E5%80%BC.png"></p>
-<p>属性A的信息收益是<strong>熵的期望减少</strong>，即原有的熵值-属性A分裂后的熵值：</p>
-<p>$$<br>Gain(A)&#x3D; B(𝑝&#x2F;(𝑝+𝑛)) - H(A)<br>$$</p>
-<p>$$<br>Gain(Patrons)&#x3D; 1−[2&#x2F;12B(0&#x2F;2)+4&#x2F;12B(4&#x2F;4)+6&#x2F;12B(2&#x2F;6)]≈0.541</p>
-<p>$$</p>
-<p>$$<br>Gain(Type)&#x3D; 1−[2&#x2F;12B(1&#x2F;2)+2&#x2F;12B(1&#x2F;2)+4&#x2F;12B(2&#x2F;4)+4&#x2F;12B(2&#x2F;4)]&#x3D;0<br>$$</p>
-<p>$$<br>Gain(Patrons)&gt;Gain(Type)<br>$$</p>
-<p><strong>选择信息收益最大的属性进行分裂</strong></p>
-<h2 id="决策树剪枝"><a href="#决策树剪枝" class="headerlink" title="决策树剪枝"></a>决策树剪枝</h2><p>找到<strong>过度拟合</strong>的结点，删除该节点及其分支</p>
-<p>如果一个节点是过度拟合的，则该结点不同属性之下所含正样本的比例与整个集合的比例大致相同，<strong>pk&#x2F;(pk+nk)≈p&#x2F;(p+n)</strong></p>
+<p>从地铁站出来，引入眼帘的就是宏伟壮观的长沙火车站，火车站就伫立在一大块平地上，附近伴生的建筑也为数众多，火车站这三个大字就位于建筑的顶上，火红的标字提醒着附近的人们这里是哪里。来往的人们也络绎不绝，大多数都是来往的旅客，其中还夹杂着几个为生活谋生的人，他们挥舞着手中的商品来进行推销，却总是遭到人们的拒绝。走进候车站，人山人海，大家都席地而坐等待候车，更有甚者甚至连地铺都打好了。</p>
+<p>等啊等终于车到了，我们提着行李箱一路奔驰到车门处，学校给我们订的票是硬座，一走进去就惊到了，中间的道路十分的狭窄，能通过行李箱就已经是极限了，然后座位也是非常的狭窄，我的那个位置要坐下3个人，但是只有最里面才有小桌子，也没有充电的地方，由于我没有充电宝所以只能节省用电，掏出了我新买的《地铁》小说开始看，其实车里面的灯也是属于不是很亮的类型，散发出淡淡的黄光，就像我现在住的酒店的灯光，不是很适合读书。看了一会就感觉到了疲倦，于是闭目养神。没有桌子的依靠不方便睡眠，所以只能小憩一会就醒来继续看书。就这样半睡半醒的度过了那一段时间，终于天亮了，天亮得很早，5点出头就已经白昼，路上的美景也有不少，印象最深刻的就是广阔的农田，因为地势的平坦所以很多土地连在一起做的农田，青青的麦子在风中摇曳，给人一种”勃勃生机，万物竟发”的景象(笑)，还有就是火车在行进路上时不时就发出鸣笛的声音，悠长而尖锐，然后就看到身着工作服的火车工人们在旁边默默的等待火车的通过，感谢他们，到了白天找刘杰接了充电宝，然后开始看起了大决战系列的电影解说，时间就这样悄然过去，直到到达目的地。</p>
+<p>到了杭州，还没出去，只是中途在大巴上看到的景象，感觉杭州和长沙并无太大区别，都是耸立的建筑群，然后是熙熙往来的人们。也好似我在写这篇游记时的酒店周旁，正响着耳熟能详的广场舞音乐，让我感觉好像回到了小学，我坐在自己的书房看书的时候就是广场舞音乐伴随着我。看起来所有城市都一样，有着共通性。但是我认为每个城市都有着属于自己的精神底色，这是时代、历史、文化所赋予给人们的。而要看到这一点，那就等自由时间出去游玩再去探索吧。</p>
+<p>今天就到这里，因为火车上实在是疲惫，睡午觉的时候一不小心睡过了头，甚至还影响了晚上的身体，所以今天自由活动就没有出去</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A61.png"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A62.png"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A63.png"></p>
 ]]></content>
       <categories>
-        <category>人工智能</category>
+        <category>游记</category>
       </categories>
+      <tags>
+        <tag>游记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数组和链表</title>
+    <url>/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="基础知识-数组与链表"><a href="#基础知识-数组与链表" class="headerlink" title="基础知识-数组与链表"></a>基础知识-数组与链表</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><strong>数组</strong>是被操作系统分配的一个内存块，用来保存数组的元素。通过使用特定元素的索引作为数组下标，可以在常数时间内访问数组元素。</p>
+<h3 id="数组的优点"><a href="#数组的优点" class="headerlink" title="数组的优点"></a>数组的优点</h3><blockquote>
+<p>简单且易用</p>
+<p>访问元素快(常数时间)</p>
+</blockquote>
+<h3 id="数组的缺点"><a href="#数组的缺点" class="headerlink" title="数组的缺点"></a>数组的缺点</h3><blockquote>
+<p>大小固定：数组的大小是静态的（要在使用前指定数组的大小）</p>
+<p>分配一个块：数组初始化分配空间时，有时不可能分配能存储整个数组的内存（如果数组的大小太大）</p>
+<p>基于位置的插入操作实现复杂</p>
+</blockquote>
+<h2 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h2><p>链表是一种用于存储数据集合的数据结构。链表中相邻连续元素之间通过指针链接，最后一个元素的后继指针的值为NULL。</p>
+<h3 id="链表的优点"><a href="#链表的优点" class="headerlink" title="链表的优点"></a>链表的优点</h3><blockquote>
+<p>链表可以在常数时间拓展</p>
+<p>在程序执行过程中，链表的大小可以增长或减小</p>
+<p>链表的空间能够按需分配</p>
+<p>没有内存空间的浪费</p>
+</blockquote>
+<h3 id="链表的缺点"><a href="#链表的缺点" class="headerlink" title="链表的缺点"></a>链表的缺点</h3><blockquote>
+<p>链表的主要缺点在于访问单个元素的时间开销问题</p>
+<p>存储空间的离散性降低了元素的存储效率</p>
+<p>链表中的指针需要额外的内存开销</p>
+</blockquote>
+<h2 id="物理实现"><a href="#物理实现" class="headerlink" title="物理实现"></a>物理实现</h2><p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E6%95%B0%E7%BB%84.png"></p>
+<p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8.png"></p>
+<h2 id="补充-7-1"><a href="#补充-7-1" class="headerlink" title="补充-7.1"></a>补充-7.1</h2><p>顺序表的实现就是用数组完成的，优势就在于访问数据的时候直接根据下标就可以快速寻找，而链表不行，只能回归表头再顺序执行，消耗的时间比较长。但是再增删数据的情况下，数组就明显不如链表，数组必须移动增删的数据后面的数据，而链表只需要把数据域后面的指针改一下指向的方向就可以了。</p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>线性表</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最近的一些烦恼或者想法</title>
+    <url>/2023/07/01/%E6%9C%80%E8%BF%91%E7%9A%84%E4%B8%80%E4%BA%9B%E7%83%A6%E6%81%BC%E6%88%96%E8%80%85%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近看了很多的关于解放战争的视频，深感现在中国的不易。但是又同时看到了地方债的问题，产业转型升级的困难和许多地方政府出现的问题，比如青海湖要围起来。每当看到底下的评论区阴阳怪气时总是颇感难受，但是基于实事求是的原则来说，这些中很多都是事实，不能因为别人的过度放大而忽视。我们是“幸运”的一代，生长于经济增长的大环境中，但是在即将登上历史舞台的时候遇到了疫情，从而经济下行，就业困难。有时候总在想，一代人有一代人的使命，或许我们这一代人的使命就是带领中国走出现在的困境迈出下一步，但是又深感无力，因为自己的力量微薄并且不算努力，能力有限，就只能干着急。</p>
+<p>我和我爸其实也讨论过现在的困难处境，但是我爸也告诉我说这些事情有必要了解，因为大环境的改变会影响所有人，但是又不可过度关注，因为自己改变不了这个世界，我只能先改变自己，先把自己的事情做好，再来改变世界。过去人们的艰苦奋斗造就了现在中国人的辉煌，我就不信现在还能比过去更加的困难吗。雄关漫道真如铁，而今迈步从头越。在前人的基础上迈出属于自己的一步吧。</p>
+]]></content>
   </entry>
   <entry>
     <title>朴素贝叶斯分类算法</title>
@@ -428,34 +405,79 @@
       </tags>
   </entry>
   <entry>
-    <title>哥们的第一篇博客</title>
-    <url>/2023/05/24/%E5%93%A5%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2-%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id><a href="#" class="headerlink" title></a></h1><h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><p>其实我开始博客的时间已经相当晚了，现在已经是大三的下学期即将画上句号，按理说能学得都已经学完了，现在正是把学到的东西实践的时刻了。可惜我学艺不精，所以决定考研这条路，也就意味着我的专业课知识得从头来过，不过这也没什么好后悔的，正好以这为教训，引以为鉴。</p>
+    <title>机器学习</title>
+    <url>/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="学习概述"><a href="#学习概述" class="headerlink" title="学习概述"></a>学习概述</h1><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p>机器可以自动”学习”的算法，即从<strong>数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。</strong></p>
+<h2 id="学习的反馈类型"><a href="#学习的反馈类型" class="headerlink" title="学习的反馈类型"></a>学习的反馈类型</h2><h3 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h3><p>不提供任何的显示反馈，比如：KNN聚类算法</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
+<h3 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h3><p>提供“输入-输出”对，学习从输入到输出的映射函数。比如：贝叶斯网络，人工神经网络，决策树</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
+<h3 id="半监督学习"><a href="#半监督学习" class="headerlink" title="半监督学习"></a>半监督学习</h3><p>提供少量的“输入-输出”对，大部分样本未标注。基于图的学习算法。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
+<h2 id="监督学习-1"><a href="#监督学习-1" class="headerlink" title="监督学习"></a>监督学习</h2><h3 id="监督学习的任务是："><a href="#监督学习的任务是：" class="headerlink" title="监督学习的任务是："></a>监督学习的任务是：</h3><p>1.给定由N个“输入-输出”对样例组成的训练集从给定的训练数据集中学习出一个函数（模型参数）</p>
+<p>2.当新的数据到来时，可以根据这个函数预测结果</p>
+<h3 id="分类与回归"><a href="#分类与回归" class="headerlink" title="分类与回归"></a>分类与回归</h3><p>分类问题的主要目的是预测分类标签，标签来自预定义的可选列表。分类问题可分为二分类和多分类。</p>
+<p>比如邮件系统，对于垃圾邮件的识别就是一个分类问题。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%88%86%E7%B1%BB.png"></p>
+<p>回归任务的目标是预测一个连续值。</p>
+<p>例如，根据教育水平、年龄和居住地来预测一个人的年收入，预测的结果是一个金额数值。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9B%9E%E5%BD%92.png"></p>
+<h2 id="K-折交叉验证"><a href="#K-折交叉验证" class="headerlink" title="K-折交叉验证"></a>K-折交叉验证</h2><p>思想：每个样本既作为训练数据，又作为测试数据</p>
 <blockquote>
-<p>种一棵树最好的时间是十年前，其次是现在。</p>
+<p>将数据分成k个相等的子集</p>
+<p>执行k轮次学习，每一轮1&#x2F;k个数据作为测试数据，其他作为训练数据</p>
 </blockquote>
-<p>准备搭建博客的目的也是为此，决定将我学到的东西分享到网上，正好督促我自己的学习进度，并且这种文书工作我也并不讨厌，可以说得上相得益彰了。总之，学习的路很长，漫漫长路从脚下开始。从今天开始我会将一些学习笔记、不那么隐私的生活感悟写进我的博客，如果你看到了，请付之一笑，这些只不过是我年少的妄语，随着时间的推移，身份的改变，我自己肯定也会改变的，再回过头来看说不定也觉得现在的自己年轻幼稚。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K.png"></p>
+<p>精度增加伴随着代价增加</p>
+<h2 id="过拟合-x2F-欠拟合"><a href="#过拟合-x2F-欠拟合" class="headerlink" title="过拟合&#x2F;欠拟合"></a>过拟合&#x2F;欠拟合</h2><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>拟合模型时，过分关注训练集的细节，训练集学习得到的目标函数在训练集上性能很好，在测试集上性能不高。</p>
+<p>训练出的模型太复杂，不能泛化到新数据上的模型就叫做过拟合。</p>
+<p>其实就是训练次数过多导致找到了太多只适用于训练集的特征，过于细化所以不能通用。</p>
+<h3 id="欠拟合"><a href="#欠拟合" class="headerlink" title="欠拟合"></a>欠拟合</h3><p>相反，如果模型过于简单，那么就可能无法抓住数据的全部内容以及数据中的变化。甚至可能模型在训练集上的表现也很差。也就是没要找到特征。</p>
+<h3 id="如何避免过拟合"><a href="#如何避免过拟合" class="headerlink" title="如何避免过拟合"></a>如何避免过拟合</h3><ol>
+<li>Early stopping （适当的stoppingcriterion）:</li>
+</ol>
+<p>   Early stopping便是一种迭代次数截断的方法来防止过拟</p>
+<p>   合的方法，即在模型对训练数据集迭代收敛之前停止迭代</p>
+<p>   来防止过拟合</p>
+<p>   2) 数据集扩增 : 数据机扩增即需要得到更多的符合要求</p>
+<p>   的数据，即和已有的数据是独立同分布的，或者近似独立</p>
+<p>   同分布的。一般方法有：从数据源头采集更多数据，复制</p>
+<p>   原有数据并加上随机噪声，重采样，根据当前数据集估计</p>
+<p>   数据分布参数，使用该分布产生更多数据等</p>
+<p>   3）正则化方法：一般有L1正则与L2正则等</p>
+<p>   4）Dropout：正则是通过在代价函数后面加上正则项来防</p>
+<p>   止模型过拟合的。而在神经网络中，有一种方法是通过修</p>
+<p>   改神经网络本身结构来实现的，其名为Dropout。</p>
+<h2 id="信息理论：熵"><a href="#信息理论：熵" class="headerlink" title="信息理论：熵"></a>信息理论：熵</h2><p>熵H(x)：衡量数据集的纯度</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5.png"></p>
+<p>熵曲线</p>
+<p>两个样本(P,N),p个正样本数，n个负样本数，p&#x3D;9,n&#x3D;5</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%9B%B2%E7%BA%BF.png"></p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%A0%B7%E4%BE%8B.png"></p>
+<h2 id="信息理论：属性选择"><a href="#信息理论：属性选择" class="headerlink" title="信息理论：属性选择"></a>信息理论：属性选择</h2><p>根据熵的定义，公平掷硬币的熵：</p>
+<p>$$<br>H(Fair)&#x3D;− (0.5log_2⁡0.5 +0.5  log_2⁡0.5 )&#x3D; 1<br>$$</p>
+<p>如果加载硬币，使之能掷出99%正面向上，则有</p>
+<p>$$<br>H(Loaded)&#x3D;− (0.99log_2⁡0.99+0. 01log_2⁡0.01) ≈0.08<br>$$</p>
+<p>设布尔变量以q的概率为真，则可定义该变量的熵为：</p>
+<p>$$<br>B(q)&#x3D;− (q log_2⁡q +(1-q)log_2⁡(1-q) )<br>$$</p>
+<p>因此</p>
+<p>$$<br>H(Loaded)&#x3D;B(0.99)≈0.08<br>$$</p>
+<p>一个训练数据集包含p个正样本,n个负样本，则目标属性在整个样例集上的熵为：</p>
+<p>$$<br>H(Goal)&#x3D; B(𝑝&#x2F;(𝑝+𝑛))<br>$$</p>
+<p>一个属性A的取值为A1,A2,…,Av,根据属性A的取值将训练数据集E分成E1,E2,…Ev,每个子集Ei有pi个正例和ni个反例，则选择属性A后，剩余的期望熵值为：</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%9F%E6%9C%9B%E7%86%B5%E5%80%BC.png"></p>
+<p>属性A的信息收益是<strong>熵的期望减少</strong>，即原有的熵值-属性A分裂后的熵值：</p>
+<p>$$<br>Gain(A)&#x3D; B(𝑝&#x2F;(𝑝+𝑛)) - H(A)<br>$$</p>
+<p>$$<br>Gain(Patrons)&#x3D; 1−[2&#x2F;12B(0&#x2F;2)+4&#x2F;12B(4&#x2F;4)+6&#x2F;12B(2&#x2F;6)]≈0.541</p>
+<p>$$</p>
+<p>$$<br>Gain(Type)&#x3D; 1−[2&#x2F;12B(1&#x2F;2)+2&#x2F;12B(1&#x2F;2)+4&#x2F;12B(2&#x2F;4)+4&#x2F;12B(2&#x2F;4)]&#x3D;0<br>$$</p>
+<p>$$<br>Gain(Patrons)&gt;Gain(Type)<br>$$</p>
+<p><strong>选择信息收益最大的属性进行分裂</strong></p>
+<h2 id="决策树剪枝"><a href="#决策树剪枝" class="headerlink" title="决策树剪枝"></a>决策树剪枝</h2><p>找到<strong>过度拟合</strong>的结点，删除该节点及其分支</p>
+<p>如果一个节点是过度拟合的，则该结点不同属性之下所含正样本的比例与整个集合的比例大致相同，<strong>pk&#x2F;(pk+nk)≈p&#x2F;(p+n)</strong></p>
 ]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/05/23/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+      <categories>
+        <category>人工智能</category>
+      </categories>
   </entry>
 </search>
