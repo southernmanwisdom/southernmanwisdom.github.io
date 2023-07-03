@@ -134,9 +134,9 @@
 <p>等啊等终于车到了，我们提着行李箱一路奔驰到车门处，学校给我们订的票是硬座，一走进去就惊到了，中间的道路十分的狭窄，能通过行李箱就已经是极限了，然后座位也是非常的狭窄，我的那个位置要坐下3个人，但是只有最里面才有小桌子，也没有充电的地方，由于我没有充电宝所以只能节省用电，掏出了我新买的《地铁》小说开始看，其实车里面的灯也是属于不是很亮的类型，散发出淡淡的黄光，就像我现在住的酒店的灯光，不是很适合读书。看了一会就感觉到了疲倦，于是闭目养神。没有桌子的依靠不方便睡眠，所以只能小憩一会就醒来继续看书。就这样半睡半醒的度过了那一段时间，终于天亮了，天亮得很早，5点出头就已经白昼，路上的美景也有不少，印象最深刻的就是广阔的农田，因为地势的平坦所以很多土地连在一起做的农田，青青的麦子在风中摇曳，给人一种”勃勃生机，万物竟发”的景象(笑)，还有就是火车在行进路上时不时就发出鸣笛的声音，悠长而尖锐，然后就看到身着工作服的火车工人们在旁边默默的等待火车的通过，感谢他们，到了白天找刘杰接了充电宝，然后开始看起了大决战系列的电影解说，时间就这样悄然过去，直到到达目的地。</p>
 <p>到了杭州，还没出去，只是中途在大巴上看到的景象，感觉杭州和长沙并无太大区别，都是耸立的建筑群，然后是熙熙往来的人们。也好似我在写这篇游记时的酒店周旁，正响着耳熟能详的广场舞音乐，让我感觉好像回到了小学，我坐在自己的书房看书的时候就是广场舞音乐伴随着我。看起来所有城市都一样，有着共通性。但是我认为每个城市都有着属于自己的精神底色，这是时代、历史、文化所赋予给人们的。而要看到这一点，那就等自由时间出去游玩再去探索吧。</p>
 <p>今天就到这里，因为火车上实在是疲惫，睡午觉的时候一不小心睡过了头，甚至还影响了晚上的身体，所以今天自由活动就没有出去</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A61.png"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A62.png"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A63.png"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A61.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A62.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A63.jpg"></p>
 ]]></content>
       <categories>
         <category>游记</category>
@@ -258,6 +258,82 @@
       <tags>
         <tag>贝叶斯算法</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>机器学习</title>
+    <url>/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="学习概述"><a href="#学习概述" class="headerlink" title="学习概述"></a>学习概述</h1><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p>机器可以自动”学习”的算法，即从<strong>数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。</strong></p>
+<h2 id="学习的反馈类型"><a href="#学习的反馈类型" class="headerlink" title="学习的反馈类型"></a>学习的反馈类型</h2><h3 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h3><p>不提供任何的显示反馈，比如：KNN聚类算法</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
+<h3 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h3><p>提供“输入-输出”对，学习从输入到输出的映射函数。比如：贝叶斯网络，人工神经网络，决策树</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
+<h3 id="半监督学习"><a href="#半监督学习" class="headerlink" title="半监督学习"></a>半监督学习</h3><p>提供少量的“输入-输出”对，大部分样本未标注。基于图的学习算法。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
+<h2 id="监督学习-1"><a href="#监督学习-1" class="headerlink" title="监督学习"></a>监督学习</h2><h3 id="监督学习的任务是："><a href="#监督学习的任务是：" class="headerlink" title="监督学习的任务是："></a>监督学习的任务是：</h3><p>1.给定由N个“输入-输出”对样例组成的训练集从给定的训练数据集中学习出一个函数（模型参数）</p>
+<p>2.当新的数据到来时，可以根据这个函数预测结果</p>
+<h3 id="分类与回归"><a href="#分类与回归" class="headerlink" title="分类与回归"></a>分类与回归</h3><p>分类问题的主要目的是预测分类标签，标签来自预定义的可选列表。分类问题可分为二分类和多分类。</p>
+<p>比如邮件系统，对于垃圾邮件的识别就是一个分类问题。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%88%86%E7%B1%BB.png"></p>
+<p>回归任务的目标是预测一个连续值。</p>
+<p>例如，根据教育水平、年龄和居住地来预测一个人的年收入，预测的结果是一个金额数值。</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9B%9E%E5%BD%92.png"></p>
+<h2 id="K-折交叉验证"><a href="#K-折交叉验证" class="headerlink" title="K-折交叉验证"></a>K-折交叉验证</h2><p>思想：每个样本既作为训练数据，又作为测试数据</p>
+<blockquote>
+<p>将数据分成k个相等的子集</p>
+<p>执行k轮次学习，每一轮1&#x2F;k个数据作为测试数据，其他作为训练数据</p>
+</blockquote>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K.png"></p>
+<p>精度增加伴随着代价增加</p>
+<h2 id="过拟合-x2F-欠拟合"><a href="#过拟合-x2F-欠拟合" class="headerlink" title="过拟合&#x2F;欠拟合"></a>过拟合&#x2F;欠拟合</h2><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>拟合模型时，过分关注训练集的细节，训练集学习得到的目标函数在训练集上性能很好，在测试集上性能不高。</p>
+<p>训练出的模型太复杂，不能泛化到新数据上的模型就叫做过拟合。</p>
+<p>其实就是训练次数过多导致找到了太多只适用于训练集的特征，过于细化所以不能通用。</p>
+<h3 id="欠拟合"><a href="#欠拟合" class="headerlink" title="欠拟合"></a>欠拟合</h3><p>相反，如果模型过于简单，那么就可能无法抓住数据的全部内容以及数据中的变化。甚至可能模型在训练集上的表现也很差。也就是没要找到特征。</p>
+<h3 id="如何避免过拟合"><a href="#如何避免过拟合" class="headerlink" title="如何避免过拟合"></a>如何避免过拟合</h3><ol>
+<li>Early stopping （适当的stoppingcriterion）:</li>
+</ol>
+<p>   Early stopping便是一种迭代次数截断的方法来防止过拟</p>
+<p>   合的方法，即在模型对训练数据集迭代收敛之前停止迭代</p>
+<p>   来防止过拟合</p>
+<p>   2) 数据集扩增 : 数据机扩增即需要得到更多的符合要求</p>
+<p>   的数据，即和已有的数据是独立同分布的，或者近似独立</p>
+<p>   同分布的。一般方法有：从数据源头采集更多数据，复制</p>
+<p>   原有数据并加上随机噪声，重采样，根据当前数据集估计</p>
+<p>   数据分布参数，使用该分布产生更多数据等</p>
+<p>   3）正则化方法：一般有L1正则与L2正则等</p>
+<p>   4）Dropout：正则是通过在代价函数后面加上正则项来防</p>
+<p>   止模型过拟合的。而在神经网络中，有一种方法是通过修</p>
+<p>   改神经网络本身结构来实现的，其名为Dropout。</p>
+<h2 id="信息理论：熵"><a href="#信息理论：熵" class="headerlink" title="信息理论：熵"></a>信息理论：熵</h2><p>熵H(x)：衡量数据集的纯度</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5.png"></p>
+<p>熵曲线</p>
+<p>两个样本(P,N),p个正样本数，n个负样本数，p&#x3D;9,n&#x3D;5</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%9B%B2%E7%BA%BF.png"></p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%A0%B7%E4%BE%8B.png"></p>
+<h2 id="信息理论：属性选择"><a href="#信息理论：属性选择" class="headerlink" title="信息理论：属性选择"></a>信息理论：属性选择</h2><p>根据熵的定义，公平掷硬币的熵：</p>
+<p>$$<br>H(Fair)&#x3D;− (0.5log_2⁡0.5 +0.5  log_2⁡0.5 )&#x3D; 1<br>$$</p>
+<p>如果加载硬币，使之能掷出99%正面向上，则有</p>
+<p>$$<br>H(Loaded)&#x3D;− (0.99log_2⁡0.99+0. 01log_2⁡0.01) ≈0.08<br>$$</p>
+<p>设布尔变量以q的概率为真，则可定义该变量的熵为：</p>
+<p>$$<br>B(q)&#x3D;− (q log_2⁡q +(1-q)log_2⁡(1-q) )<br>$$</p>
+<p>因此</p>
+<p>$$<br>H(Loaded)&#x3D;B(0.99)≈0.08<br>$$</p>
+<p>一个训练数据集包含p个正样本,n个负样本，则目标属性在整个样例集上的熵为：</p>
+<p>$$<br>H(Goal)&#x3D; B(𝑝&#x2F;(𝑝+𝑛))<br>$$</p>
+<p>一个属性A的取值为A1,A2,…,Av,根据属性A的取值将训练数据集E分成E1,E2,…Ev,每个子集Ei有pi个正例和ni个反例，则选择属性A后，剩余的期望熵值为：</p>
+<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%9F%E6%9C%9B%E7%86%B5%E5%80%BC.png"></p>
+<p>属性A的信息收益是<strong>熵的期望减少</strong>，即原有的熵值-属性A分裂后的熵值：</p>
+<p>$$<br>Gain(A)&#x3D; B(𝑝&#x2F;(𝑝+𝑛)) - H(A)<br>$$</p>
+<p>$$<br>Gain(Patrons)&#x3D; 1−[2&#x2F;12B(0&#x2F;2)+4&#x2F;12B(4&#x2F;4)+6&#x2F;12B(2&#x2F;6)]≈0.541</p>
+<p>$$</p>
+<p>$$<br>Gain(Type)&#x3D; 1−[2&#x2F;12B(1&#x2F;2)+2&#x2F;12B(1&#x2F;2)+4&#x2F;12B(2&#x2F;4)+4&#x2F;12B(2&#x2F;4)]&#x3D;0<br>$$</p>
+<p>$$<br>Gain(Patrons)&gt;Gain(Type)<br>$$</p>
+<p><strong>选择信息收益最大的属性进行分裂</strong></p>
+<h2 id="决策树剪枝"><a href="#决策树剪枝" class="headerlink" title="决策树剪枝"></a>决策树剪枝</h2><p>找到<strong>过度拟合</strong>的结点，删除该节点及其分支</p>
+<p>如果一个节点是过度拟合的，则该结点不同属性之下所含正样本的比例与整个集合的比例大致相同，<strong>pk&#x2F;(pk+nk)≈p&#x2F;(p+n)</strong></p>
+]]></content>
+      <categories>
+        <category>人工智能</category>
+      </categories>
   </entry>
   <entry>
     <title>监听法和目录法</title>
@@ -403,81 +479,5 @@
       <tags>
         <tag>指令的动态调度</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>机器学习</title>
-    <url>/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="学习概述"><a href="#学习概述" class="headerlink" title="学习概述"></a>学习概述</h1><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p>机器可以自动”学习”的算法，即从<strong>数据中自动分析获得规律，并利用规律对未知数据进行预测的算法。</strong></p>
-<h2 id="学习的反馈类型"><a href="#学习的反馈类型" class="headerlink" title="学习的反馈类型"></a>学习的反馈类型</h2><h3 id="无监督学习"><a href="#无监督学习" class="headerlink" title="无监督学习"></a>无监督学习</h3><p>不提供任何的显示反馈，比如：KNN聚类算法</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%97%A0%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
-<h3 id="监督学习"><a href="#监督学习" class="headerlink" title="监督学习"></a>监督学习</h3><p>提供“输入-输出”对，学习从输入到输出的映射函数。比如：贝叶斯网络，人工神经网络，决策树</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
-<h3 id="半监督学习"><a href="#半监督学习" class="headerlink" title="半监督学习"></a>半监督学习</h3><p>提供少量的“输入-输出”对，大部分样本未标注。基于图的学习算法。</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%8D%8A%E7%9B%91%E7%9D%A3%E5%AD%A6%E4%B9%A0.png"></p>
-<h2 id="监督学习-1"><a href="#监督学习-1" class="headerlink" title="监督学习"></a>监督学习</h2><h3 id="监督学习的任务是："><a href="#监督学习的任务是：" class="headerlink" title="监督学习的任务是："></a>监督学习的任务是：</h3><p>1.给定由N个“输入-输出”对样例组成的训练集从给定的训练数据集中学习出一个函数（模型参数）</p>
-<p>2.当新的数据到来时，可以根据这个函数预测结果</p>
-<h3 id="分类与回归"><a href="#分类与回归" class="headerlink" title="分类与回归"></a>分类与回归</h3><p>分类问题的主要目的是预测分类标签，标签来自预定义的可选列表。分类问题可分为二分类和多分类。</p>
-<p>比如邮件系统，对于垃圾邮件的识别就是一个分类问题。</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%88%86%E7%B1%BB.png"></p>
-<p>回归任务的目标是预测一个连续值。</p>
-<p>例如，根据教育水平、年龄和居住地来预测一个人的年收入，预测的结果是一个金额数值。</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9B%9E%E5%BD%92.png"></p>
-<h2 id="K-折交叉验证"><a href="#K-折交叉验证" class="headerlink" title="K-折交叉验证"></a>K-折交叉验证</h2><p>思想：每个样本既作为训练数据，又作为测试数据</p>
-<blockquote>
-<p>将数据分成k个相等的子集</p>
-<p>执行k轮次学习，每一轮1&#x2F;k个数据作为测试数据，其他作为训练数据</p>
-</blockquote>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K.png"></p>
-<p>精度增加伴随着代价增加</p>
-<h2 id="过拟合-x2F-欠拟合"><a href="#过拟合-x2F-欠拟合" class="headerlink" title="过拟合&#x2F;欠拟合"></a>过拟合&#x2F;欠拟合</h2><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>拟合模型时，过分关注训练集的细节，训练集学习得到的目标函数在训练集上性能很好，在测试集上性能不高。</p>
-<p>训练出的模型太复杂，不能泛化到新数据上的模型就叫做过拟合。</p>
-<p>其实就是训练次数过多导致找到了太多只适用于训练集的特征，过于细化所以不能通用。</p>
-<h3 id="欠拟合"><a href="#欠拟合" class="headerlink" title="欠拟合"></a>欠拟合</h3><p>相反，如果模型过于简单，那么就可能无法抓住数据的全部内容以及数据中的变化。甚至可能模型在训练集上的表现也很差。也就是没要找到特征。</p>
-<h3 id="如何避免过拟合"><a href="#如何避免过拟合" class="headerlink" title="如何避免过拟合"></a>如何避免过拟合</h3><ol>
-<li>Early stopping （适当的stoppingcriterion）:</li>
-</ol>
-<p>   Early stopping便是一种迭代次数截断的方法来防止过拟</p>
-<p>   合的方法，即在模型对训练数据集迭代收敛之前停止迭代</p>
-<p>   来防止过拟合</p>
-<p>   2) 数据集扩增 : 数据机扩增即需要得到更多的符合要求</p>
-<p>   的数据，即和已有的数据是独立同分布的，或者近似独立</p>
-<p>   同分布的。一般方法有：从数据源头采集更多数据，复制</p>
-<p>   原有数据并加上随机噪声，重采样，根据当前数据集估计</p>
-<p>   数据分布参数，使用该分布产生更多数据等</p>
-<p>   3）正则化方法：一般有L1正则与L2正则等</p>
-<p>   4）Dropout：正则是通过在代价函数后面加上正则项来防</p>
-<p>   止模型过拟合的。而在神经网络中，有一种方法是通过修</p>
-<p>   改神经网络本身结构来实现的，其名为Dropout。</p>
-<h2 id="信息理论：熵"><a href="#信息理论：熵" class="headerlink" title="信息理论：熵"></a>信息理论：熵</h2><p>熵H(x)：衡量数据集的纯度</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5.png"></p>
-<p>熵曲线</p>
-<p>两个样本(P,N),p个正样本数，n个负样本数，p&#x3D;9,n&#x3D;5</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%9B%B2%E7%BA%BF.png"></p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%86%B5%E6%A0%B7%E4%BE%8B.png"></p>
-<h2 id="信息理论：属性选择"><a href="#信息理论：属性选择" class="headerlink" title="信息理论：属性选择"></a>信息理论：属性选择</h2><p>根据熵的定义，公平掷硬币的熵：</p>
-<p>$$<br>H(Fair)&#x3D;− (0.5log_2⁡0.5 +0.5  log_2⁡0.5 )&#x3D; 1<br>$$</p>
-<p>如果加载硬币，使之能掷出99%正面向上，则有</p>
-<p>$$<br>H(Loaded)&#x3D;− (0.99log_2⁡0.99+0. 01log_2⁡0.01) ≈0.08<br>$$</p>
-<p>设布尔变量以q的概率为真，则可定义该变量的熵为：</p>
-<p>$$<br>B(q)&#x3D;− (q log_2⁡q +(1-q)log_2⁡(1-q) )<br>$$</p>
-<p>因此</p>
-<p>$$<br>H(Loaded)&#x3D;B(0.99)≈0.08<br>$$</p>
-<p>一个训练数据集包含p个正样本,n个负样本，则目标属性在整个样例集上的熵为：</p>
-<p>$$<br>H(Goal)&#x3D; B(𝑝&#x2F;(𝑝+𝑛))<br>$$</p>
-<p>一个属性A的取值为A1,A2,…,Av,根据属性A的取值将训练数据集E分成E1,E2,…Ev,每个子集Ei有pi个正例和ni个反例，则选择属性A后，剩余的期望熵值为：</p>
-<p><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E6%9C%9F%E6%9C%9B%E7%86%B5%E5%80%BC.png"></p>
-<p>属性A的信息收益是<strong>熵的期望减少</strong>，即原有的熵值-属性A分裂后的熵值：</p>
-<p>$$<br>Gain(A)&#x3D; B(𝑝&#x2F;(𝑝+𝑛)) - H(A)<br>$$</p>
-<p>$$<br>Gain(Patrons)&#x3D; 1−[2&#x2F;12B(0&#x2F;2)+4&#x2F;12B(4&#x2F;4)+6&#x2F;12B(2&#x2F;6)]≈0.541</p>
-<p>$$</p>
-<p>$$<br>Gain(Type)&#x3D; 1−[2&#x2F;12B(1&#x2F;2)+2&#x2F;12B(1&#x2F;2)+4&#x2F;12B(2&#x2F;4)+4&#x2F;12B(2&#x2F;4)]&#x3D;0<br>$$</p>
-<p>$$<br>Gain(Patrons)&gt;Gain(Type)<br>$$</p>
-<p><strong>选择信息收益最大的属性进行分裂</strong></p>
-<h2 id="决策树剪枝"><a href="#决策树剪枝" class="headerlink" title="决策树剪枝"></a>决策树剪枝</h2><p>找到<strong>过度拟合</strong>的结点，删除该节点及其分支</p>
-<p>如果一个节点是过度拟合的，则该结点不同属性之下所含正样本的比例与整个集合的比例大致相同，<strong>pk&#x2F;(pk+nk)≈p&#x2F;(p+n)</strong></p>
-]]></content>
-      <categories>
-        <category>人工智能</category>
-      </categories>
   </entry>
 </search>
