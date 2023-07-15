@@ -3,7 +3,8 @@
   <entry>
     <title>测试stellar</title>
     <url>/2023/07/15/%E6%B5%8B%E8%AF%95stellar/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="tag-plugin timeline"><div class="timenode" index="0"><div class="header"><p>第一步：打开 GitHub</p></div><div class="body fs14"><p>打开 <a href="https://github.com/xaoxuu/hexo-theme-stellar/">Stellar</a> 的 GitHub 页面。</p></div></div><div class="timenode" index="1"><div class="header"><p>第二步：点击 Star</p></div><div class="body fs14"><p>如果发现右上角的 Star 还没点亮，就点亮它！</p></div></div></div>
+]]></content>
   </entry>
   <entry>
     <title>树</title>
