@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>测试stellar</title>
+    <url>/2023/07/15/%E6%B5%8B%E8%AF%95stellar/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
     <title>树</title>
     <url>/2023/07/14/%E6%A0%91/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1><h2 id="树的遍历"><a href="#树的遍历" class="headerlink" title="树的遍历"></a>树的遍历</h2><h3 id="前序遍历"><a href="#前序遍历" class="headerlink" title="前序遍历"></a>前序遍历</h3><p><code>void Inorder(int rt)         &#123;             if(nodeArray[rt].element()!=&#39;#&#39;)             &#123;                 Inorder(nodeArray[rt].left());                 cout&lt;&lt;nodeArray[rt].element()&lt;&lt;&quot; &quot;;                 Inorder(nodeArray[rt].right());             &#125;         &#125;</code></p>
@@ -322,8 +327,20 @@
 <p>将数据分成k个相等的子集</p>
 <p>执行k轮次学习，每一轮1&#x2F;k个数据作为测试数据，其他作为训练数据</p>
 </blockquote>
-<div class="tag-plugin image"><div class="image-bg"><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K.png)" alt="精度增加伴随着代价增加 ## 过拟合/欠拟合 ### 过拟合 拟合模型时，过分关注训练集的细节，训练集学习得到的目标函数在训练集上性能很好，在测试集上性能不高。 训练出的模型太复杂，不能泛化到新数据上的模型就叫做过拟合。 其实就是训练次数过多导致找到了太多只适用于训练集的特征，过于细化所以不能通用。 ### 欠拟合 相反，如果模型过于简单，那么就可能无法抓住数据的全部内容以及数据中的变化。甚至可能模型在训练集上的表现也很差。也就是没要找到特征。 ### 如何避免过拟合 1) Early stopping （适当的stoppingcriterion）: Early stopping便是一种迭代次数截断的方法来防止过拟 合的方法，即在模型对训练数据集迭代收敛之前停止迭代 来防止过拟合 2"></div><div class="image-meta"><span class="image-caption center">精度增加伴随着代价增加 ## 过拟合/欠拟合 ### 过拟合 拟合模型时，过分关注训练集的细节，训练集学习得到的目标函数在训练集上性能很好，在测试集上性能不高。 训练出的模型太复杂，不能泛化到新数据上的模型就叫做过拟合。 其实就是训练次数过多导致找到了太多只适用于训练集的特征，过于细化所以不能通用。 ### 欠拟合 相反，如果模型过于简单，那么就可能无法抓住数据的全部内容以及数据中的变化。甚至可能模型在训练集上的表现也很差。也就是没要找到特征。 ### 如何避免过拟合 1) Early stopping （适当的stoppingcriterion）: Early stopping便是一种迭代次数截断的方法来防止过拟 合的方法，即在模型对训练数据集迭代收敛之前停止迭代 来防止过拟合 2</span></div></div> 数据集扩增 : 数据机扩增即需要得到更多的符合要求
+<div class="tag-plugin image"><div class="image-bg"><img src="/2023/06/01/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/K.png"></div></div>
 
+<p>精度增加伴随着代价增加</p>
+<h2 id="过拟合-x2F-欠拟合"><a href="#过拟合-x2F-欠拟合" class="headerlink" title="过拟合&#x2F;欠拟合"></a>过拟合&#x2F;欠拟合</h2><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><p>拟合模型时，过分关注训练集的细节，训练集学习得到的目标函数在训练集上性能很好，在测试集上性能不高。</p>
+<p>训练出的模型太复杂，不能泛化到新数据上的模型就叫做过拟合。</p>
+<p>其实就是训练次数过多导致找到了太多只适用于训练集的特征，过于细化所以不能通用。</p>
+<h3 id="欠拟合"><a href="#欠拟合" class="headerlink" title="欠拟合"></a>欠拟合</h3><p>相反，如果模型过于简单，那么就可能无法抓住数据的全部内容以及数据中的变化。甚至可能模型在训练集上的表现也很差。也就是没要找到特征。</p>
+<h3 id="如何避免过拟合"><a href="#如何避免过拟合" class="headerlink" title="如何避免过拟合"></a>如何避免过拟合</h3><ol>
+<li>Early stopping （适当的stoppingcriterion）:</li>
+</ol>
+<p>   Early stopping便是一种迭代次数截断的方法来防止过拟</p>
+<p>   合的方法，即在模型对训练数据集迭代收敛之前停止迭代</p>
+<p>   来防止过拟合</p>
+<p>   2) 数据集扩增 : 数据机扩增即需要得到更多的符合要求</p>
 <p>   的数据，即和已有的数据是独立同分布的，或者近似独立</p>
 <p>   同分布的。一般方法有：从数据源头采集更多数据，复制</p>
 <p>   原有数据并加上随机噪声，重采样，根据当前数据集估计</p>
