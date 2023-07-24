@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>矩阵</title>
+    <url>/2023/07/24/%E7%9F%A9%E9%98%B5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h1><h2 id="矩阵的运算"><a href="#矩阵的运算" class="headerlink" title="矩阵的运算"></a>矩阵的运算</h2><ol>
+<li><p>数乘矩阵和矩阵的加法和数的计算差不多。</p>
+</li>
+<li><p>矩阵的乘法不满足交换律，顺序很重要，第一个矩阵的列数必须和第二个矩阵的行数一致。但是结合律和分配律存在，要注意矩阵的先后顺序。矩阵的 乘法消去律不成立。</p>
+</li>
+<li><p>AB&#x3D;0不能推出A&#x3D;0或B&#x3D;0.</p>
+</li>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>线性代数</category>
+      </categories>
+      <tags>
+        <tag>线性代数</tag>
+        <tag>矩阵</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>树</title>
     <url>/2023/07/14/%E6%A0%91/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1><h2 id="树的遍历"><a href="#树的遍历" class="headerlink" title="树的遍历"></a>树的遍历</h2><h3 id="前序遍历"><a href="#前序遍历" class="headerlink" title="前序遍历"></a>前序遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Inorder</span><span class="params">(<span class="type">int</span> rt)</span></span></span><br><span class="line"><span class="function">   </span>&#123; </span><br><span class="line">        <span class="keyword">if</span>(nodeArray[rt].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>)</span><br><span class="line">     &#123; </span><br><span class="line">        <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">left</span>());</span><br><span class="line">        cout&lt;&lt;nodeArray[rt].<span class="built_in">element</span>()&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">        <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">right</span>()); </span><br><span class="line">     &#125; </span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
@@ -65,7 +86,7 @@
 <p>队尾指针指向的位置也是可以变动的，视情况而定。</p>
 <p>但是顺序队列有他的局限性，那就是判断队列是否满了不好判断，举个例子：</p>
 <p>先将队列填满，那么rear队尾指针就已经到了maxsize-1，但是这时队头出去一个，那么这个队列就空出了一个，那么这个队列就没有满，但是rear的指针是不变的，所以并不能通过rear指针的位置判断队列是否满。</p>
-<h2 id="循环队列"><a href="#循环队列" class="headerlink" title="循环队列"></a>循环队列</h2><p>刚才说了顺序队列的缺陷，现在顺势引出循环队列，循环队列可以将其看作是一个环状的图形，将存储队列的元素从逻辑上看作是一个环，称为循环队列。但是当rear指针指到maxsize-1时，下一个就要到位置为0的地方，所以得到的结果应该通过取余数的方式实现 **%**。</p>
+<h2 id="循环队列"><a href="#循环队列" class="headerlink" title="循环队列"></a>循环队列</h2><p>刚才说了顺序队列的缺陷，现在顺势引出循环队列，循环队列可以将其看作是一个环状的图形，将存储队列的元素从逻辑上看作是一个环，称为循环队列。但是当rear指针指到maxsize-1时，下一个就要到位置为0的地方，所以得到的结果应该通过取余数的方式实现         **%**。</p>
 <p>那么循环队列判断队空和队满的条件是什么？显然队空的条件是Q.front&#x3D;&#x3D;Q.rear。若入队元素的速度快于出队元素的速度，那队尾指针很快就会赶上队首指针，到时候队满的条件也成了 Q.front&#x3D;&#x3D;Q.rear。以下有三种方法解决：</p>
 <p><mark>1.空出一个单元不存储数据，这样的话入队就少了一个队列单元，这种做法比较普遍。那么队头指针在队尾指针的下一个位置是队满的标志。</mark> </p>
 <blockquote>
@@ -94,7 +115,9 @@
         <category>数据结构</category>
       </categories>
       <tags>
-        <tag>栈,队列,数据结构</tag>
+        <tag>栈</tag>
+        <tag>队列</tag>
+        <tag>数据结构</tag>
       </tags>
   </entry>
   <entry>
