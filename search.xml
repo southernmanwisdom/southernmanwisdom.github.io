@@ -6,7 +6,7 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h1><h2 id="矩阵的运算"><a href="#矩阵的运算" class="headerlink" title="矩阵的运算"></a>矩阵的运算</h2><ol>
 <li><p>数乘矩阵和矩阵的加法和数的计算差不多。</p>
 </li>
-<li><p>矩阵的乘法不满足交换律，顺序很重要，第一个矩阵的列数必须和第二个矩阵的行数一致。但是结合律和分配律存在，要注意矩阵的先后顺序。矩阵的 乘法消去律不成立。</p>
+<li><p>矩阵的乘法不满足交换律，顺序很重要，第一个矩阵的列数必须和第二个矩阵的行数一致。但是结合律和分配律存在，要注意矩阵的先后顺序。矩阵的乘法消去律不成立。</p>
 </li>
 <li><p>AB&#x3D;0不能推出A&#x3D;0或B&#x3D;0.</p>
 </li>
