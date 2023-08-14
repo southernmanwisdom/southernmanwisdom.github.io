@@ -22,24 +22,24 @@
     var CONFIG = {"hostname":"nanmanchuren.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="栈前言栈是只允许在一段进行插入和删除操作的特殊的线性表。上课时老师把栈类比为弹匣，子弹被压进弹匣，不能从另一端出来，所以后面放进来的反而能先出，正所谓”后来居上”。  栈的基本操作大同小异，基本如下：">
+  <meta name="description" content="图图的物理实现邻接矩阵(相邻矩阵)图的相邻矩阵表示法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="栈与队列">
-<meta property="og:url" content="http://nanmanchuren.com/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/index.html">
+<meta property="og:title" content="图">
+<meta property="og:url" content="http://nanmanchuren.com/2023/08/02/%E5%9B%BE/index.html">
 <meta property="og:site_name" content="楚河汉界">
-<meta property="og:description" content="栈前言栈是只允许在一段进行插入和删除操作的特殊的线性表。上课时老师把栈类比为弹匣，子弹被压进弹匣，不能从另一端出来，所以后面放进来的反而能先出，正所谓”后来居上”。  栈的基本操作大同小异，基本如下：">
+<meta property="og:description" content="图图的物理实现邻接矩阵(相邻矩阵)图的相邻矩阵表示法">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://nanmanchuren.com/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/%E5%85%B1%E4%BA%AB%E6%A0%88.png">
-<meta property="article:published_time" content="2023-07-14T01:33:12.000Z">
-<meta property="article:modified_time" content="2023-07-14T01:33:12.000Z">
+<meta property="og:image" content="http://nanmanchuren.com/2023/08/02/%E5%9B%BE/%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5.png">
+<meta property="og:image" content="http://nanmanchuren.com/2023/08/02/%E5%9B%BE/%E9%82%BB%E6%8E%A5%E8%A1%A8.png">
+<meta property="article:published_time" content="2023-08-02T07:14:05.000Z">
+<meta property="article:modified_time" content="2023-08-02T07:14:05.000Z">
 <meta property="article:author" content="南蛮楚人">
-<meta property="article:tag" content="栈">
-<meta property="article:tag" content="队列">
 <meta property="article:tag" content="数据结构">
+<meta property="article:tag" content="图">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://nanmanchuren.com/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/%E5%85%B1%E4%BA%AB%E6%A0%88.png">
+<meta name="twitter:image" content="http://nanmanchuren.com/2023/08/02/%E5%9B%BE/%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5.png">
 
-<link rel="canonical" href="http://nanmanchuren.com/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/">
+<link rel="canonical" href="http://nanmanchuren.com/2023/08/02/%E5%9B%BE/">
 
 
 <script id="page-configurations">
@@ -62,7 +62,7 @@
         }
     })();
 </script>
-  <title>栈与队列 | 楚河汉界</title>
+  <title>图 | 楚河汉界</title>
   
 
 
@@ -218,7 +218,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://nanmanchuren.com/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/">
+    <link itemprop="mainEntityOfPage" href="http://nanmanchuren.com/2023/08/02/%E5%9B%BE/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -231,7 +231,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          栈与队列
+          图
         </h1>
 
         <div class="post-meta">
@@ -241,7 +241,7 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2023-07-14 09:33:12" itemprop="dateCreated datePublished" datetime="2023-07-14T09:33:12+08:00">2023-07-14</time>
+              <time title="创建时间：2023-08-02 15:14:05" itemprop="dateCreated datePublished" datetime="2023-08-02T15:14:05+08:00">2023-08-02</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -266,14 +266,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>2.4k</span>
+              <span>704</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -285,66 +285,51 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>栈是只允许在一段进行插入和删除操作的特殊的线性表。上课时老师把栈类比为弹匣，子弹被压进弹匣，不能从另一端出来，所以后面放进来的反而能先出，正所谓”后来居上”。 </p>
-<p>栈的基本操作大同小异，基本如下：</p>
-<blockquote>
-<p>1.初始化一个空栈</p>
-<p>2.判断栈是否为空</p>
-<p>3.将一个元素入栈：记得检查是否栈满,链栈不必检查</p>
-<p>4.将一个元素出栈：记得检查是否栈空</p>
-<p>5.返回栈顶的值</p>
-<p>6.销毁栈，释放空间</p>
-</blockquote>
-<h2 id="顺序栈"><a href="#顺序栈" class="headerlink" title="顺序栈"></a>顺序栈</h2><p>顺序栈顾名思义，就是用顺序结构实现的栈，其主要特点和顺序表一致，需要划一片连续的存储空间来进行存储，基本上通过数组实现。</p>
-<p>栈的顺序存储类型可描述为：</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> </span><br><span class="line">&#123; </span><br><span class="line">  <span class="type">int</span> data[MaxSize]; <span class="comment">// 创建栈的空间，用数组表示</span></span><br><span class="line">  <span class="type">int</span> top; <span class="comment">// 用于表示栈顶元素的在数组中的位置</span></span><br><span class="line">&#125;SqStack;</span><br></pre></td></tr></table></figure>
-
-<p>top可以设置为-1也可以设置为0，这个每个题目不同视情况而定。</p>
-<p>但顺序栈的缺点和顺序表一样，空间大小是固定死的，不能随机应变，而且还要连续的存储空间，有时候不易实现。</p>
-<p>顺序栈中为了更加有效利用存储空间，提出共享栈，让两个顺序栈共享一个一维数组空间，两个栈的空间相互调节，通过两个栈顶指针相减为1判断栈满，减少存储空间，降低发生上溢的可能。</p>
-<p><img src="/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/%E5%85%B1%E4%BA%AB%E6%A0%88.png"></p>
-<h2 id="链栈"><a href="#链栈" class="headerlink" title="链栈"></a>链栈</h2><p>链栈也很明显，采用了链式存储结构，优点在于便于多个栈共享存储空间和提高其效率，并且不会存在栈满上溢的情况。所有的操作都是在单链表的表头进行。</p>
-<p>队列的基本操作如下：</p>
-<blockquote>
-<p>1.初始化队列</p>
-<p>2.判断队列是否为空</p>
-<p>3.入队，要检查队列是否满了</p>
-<p>4.出队，要检查队列是否为空</p>
-<p>5.读队头元素。</p>
-</blockquote>
-<h1 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h1><h2 id="前言-1"><a href="#前言-1" class="headerlink" title="前言"></a>前言</h2><p>队列和栈一样，也是受到限制的线性表，他只能在一端输出一端输入，和我们平时的排队很像，不允许插队，也不能中途离队，只能从队尾开始排，从队头出。</p>
-<h2 id="顺序队列"><a href="#顺序队列" class="headerlink" title="顺序队列"></a>顺序队列</h2><p>顺序队列还是一样还是顺序结构，分配一块连续的存储空间存放队列的元素，并附设两个指针：队头指针和队尾指针。</p>
-<p>队列的顺序存储类型可描述为：</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> &#123; </span><br><span class="line">    <span class="type">int</span> data[MaxSize];<span class="comment">// 用于存放队列元素</span></span><br><span class="line">    <span class="type">int</span> front, rear;<span class="comment">// 用于存放队头和队尾指针，分别指向队头元素在队列数组中的位置和队尾元素的下一个位置</span></span><br><span class="line">&#125;SqQueue;</span><br></pre></td></tr></table></figure>
-
-<p>队尾指针指向的位置也是可以变动的，视情况而定。</p>
-<p>但是顺序队列有他的局限性，那就是判断队列是否满了不好判断，举个例子：</p>
-<p>先将队列填满，那么rear队尾指针就已经到了maxsize-1，但是这时队头出去一个，那么这个队列就空出了一个，那么这个队列就没有满，但是rear的指针是不变的，所以并不能通过rear指针的位置判断队列是否满。</p>
-<h2 id="循环队列"><a href="#循环队列" class="headerlink" title="循环队列"></a>循环队列</h2><p>刚才说了顺序队列的缺陷，现在顺势引出循环队列，循环队列可以将其看作是一个环状的图形，将存储队列的元素从逻辑上看作是一个环，称为循环队列。但是当rear指针指到maxsize-1时，下一个就要到位置为0的地方，所以得到的结果应该通过取余数的方式实现         **%**。</p>
-<p>那么循环队列判断队空和队满的条件是什么？显然队空的条件是Q.front&#x3D;&#x3D;Q.rear。若入队元素的速度快于出队元素的速度，那队尾指针很快就会赶上队首指针，到时候队满的条件也成了 Q.front&#x3D;&#x3D;Q.rear。以下有三种方法解决：</p>
-<p><mark>1.空出一个单元不存储数据，这样的话入队就少了一个队列单元，这种做法比较普遍。那么队头指针在队尾指针的下一个位置是队满的标志。</mark> </p>
-<blockquote>
-<p>队满条件：(Q.rear+1)%MaxSize&#x3D;&#x3D;Q.front.</p>
-<p>队空条件：Q.front&#x3D;&#x3D;Q.rear.</p>
-<p>队列中元素的个数：(Q.rear-Q.front+MaxSize)%MaxSize.</p>
-</blockquote>
-<p><mark>2.类型增设表示元素个数的数据成员size。</mark> </p>
-<blockquote>
-<p>队满条件：Q.size&#x3D;MaxSize。</p>
-<p>队空条件：Q.Size&#x3D;0.</p>
-</blockquote>
-<p><mark>3.类型中设置tag数据成员，以区分队空还是队满。tag&#x3D;0时，就表示上一个操作为删除，如果Q.front&#x3D;&#x3D;Q.rear，那就是队空；tag&#x3D;1时，表示上一个操作为插入，如果Q.front&#x3D;&#x3D;Q.rear，就表示队满。</mark></p>
-<h2 id="链式队列"><a href="#链式队列" class="headerlink" title="链式队列"></a>链式队列</h2><h3 id="链式存储"><a href="#链式存储" class="headerlink" title="链式存储"></a>链式存储</h3><hr>
-<p>队列的链式表示被称为链队列，它是一个同时带有队头指针和队尾指针的单链表。头指针指向队头结点，尾指针指向队尾结点，及单链表最后一个结点。<u>但是要注意头指针和头结点是不一样的，一个指向的是逻辑结构上的队头，一个指向链表的表头。</u>以下是队列的链式存储类型：</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 定义链式队列的结点</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> &#123;</span><br><span class="line">    <span class="type">int</span> data;</span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">LinkNode</span> *next;</span><br><span class="line">&#125;LinkNode;</span><br><span class="line"><span class="comment">// 定义链式队列</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> &#123;</span><br><span class="line">    LinkNode *front, *rear;<span class="comment">// 链式队列中包含指向队头和队尾的指针，由于队列是队头进队尾出，因此需要标记队尾指针</span></span><br><span class="line">    <span class="type">int</span> length;<span class="comment">// 用于记录队列的长度</span></span><br><span class="line">&#125;LinkQueue;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>&amp;ensp;&amp;ensp;  值得注意的是，不带头结点的链式队列在操作上往往比较麻烦，因此通常将链式队列设计成一个带头结点的单链表，这样操作和删除操作就统一了。</p>
-<p>&amp;emsp; &amp;emsp; 用单链表表示的链式队列特别适合数据元素变动比较大的情形，而且不存在队列满且溢出的问题。另外，如果程序中要使用多个队列，与多个栈的情形一样，最好使用链式队列，这样不会出现存储分配不合理和“溢出”的问题。所以之前提到的循环队列用在链式队列中纯属画蛇添足。</p>
-</blockquote>
-<h2 id="双端队列"><a href="#双端队列" class="headerlink" title="双端队列"></a>双端队列</h2><h2 id="栈和队列的应用"><a href="#栈和队列的应用" class="headerlink" title="栈和队列的应用"></a>栈和队列的应用</h2><h3 id="栈的应用"><a href="#栈的应用" class="headerlink" title="栈的应用"></a>栈的应用</h3><hr>
-<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>1. </p>
-
+        <h1 id="图"><a href="#图" class="headerlink" title="图"></a>图</h1><h2 id="图的物理实现"><a href="#图的物理实现" class="headerlink" title="图的物理实现"></a>图的物理实现</h2><h3 id="邻接矩阵-相邻矩阵"><a href="#邻接矩阵-相邻矩阵" class="headerlink" title="邻接矩阵(相邻矩阵)"></a>邻接矩阵(相邻矩阵)</h3><h4 id="图的相邻矩阵表示法"><a href="#图的相邻矩阵表示法" class="headerlink" title="图的相邻矩阵表示法"></a>图的相邻矩阵表示法</h4><ul>
+<li><p>图的顶点元素是|V|的顺序表</p>
+</li>
+<li><p>图的相邻矩阵是一个|V|×|V|矩阵</p>
+</li>
+<li><p>如果从Vi到Vj存在一条边，则对第i行的第j个元素做标记，否则不做标记</p>
+</li>
+<li><p>如果矩阵中的元素要存储边的权值，那么矩阵的每个元素必须足够大（存储权值），或者存储一个指向权值存储位置的指针。</p>
+</li>
+</ul>
+<h4 id="具体图如下："><a href="#具体图如下：" class="headerlink" title="具体图如下："></a>具体图如下：</h4><p><img src="/2023/08/02/%E5%9B%BE/%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5.png"></p>
+<h4 id="特点分析"><a href="#特点分析" class="headerlink" title="特点分析"></a>特点分析</h4><ul>
+<li><p>可以存储无向图或者有向图</p>
+</li>
+<li><p>相邻矩阵需要存储所有可能的边，不管这条边是否实际存在。</p>
+</li>
+<li><p>没有结构性开销，但是存在空间浪费</p>
+</li>
+<li><p>相邻矩阵的空间代价只与顶点的个数有关，为O(|V²|)，图越密集空间效率越高。</p>
+</li>
+<li><p>基于相邻矩阵的图算法，必须查看它的所有可能的边，导致总时间代价为O(|V²|)，所以相邻矩阵适合密集图的存储。</p>
+</li>
+</ul>
+<h3 id="邻接表"><a href="#邻接表" class="headerlink" title="邻接表"></a>邻接表</h3><h4 id="邻接表表示法"><a href="#邻接表表示法" class="headerlink" title="邻接表表示法"></a>邻接表表示法</h4><ul>
+<li><p>邻接表是一个包含|V|个元素的顺序表</p>
+</li>
+<li><p>每个元素包含两个域，一个存储图的一个顶点信息，另一个是一个指针，指向该顶点的边构成的链表。</p>
+</li>
+<li><p>这个链表通过存储顶点的邻接点来表示对应的边，链表中的每个节点存储顶点的邻接点在顺序表中的位置。</p>
+</li>
+<li><p>如果要存储边的权值，则链表中的结点增加一个数据域(存储权值，或者存储一个指向权值存储位置的指针)</p>
+</li>
+</ul>
+<h4 id="示意图"><a href="#示意图" class="headerlink" title="示意图"></a>示意图</h4><p><img src="/2023/08/02/%E5%9B%BE/%E9%82%BB%E6%8E%A5%E8%A1%A8.png"></p>
+<h4 id="邻接表的特点分析"><a href="#邻接表的特点分析" class="headerlink" title="邻接表的特点分析"></a>邻接表的特点分析</h4><ul>
+<li><p>可以用于存储无向图和有向图</p>
+</li>
+<li><p>邻接表的空间代价与图中边的数目和顶点数目都有关系。每个顶点都要一个数组元素的位置(即使该顶点没有边)，而每条边必须出现在其中某个顶点的链表中，所以邻接表的空间代价为O(|V|+|E|)</p>
+</li>
+<li><p>仅存储图中实际的边，没有空间浪费，但是存在结构性开销，图越稀疏，其空间效率越高</p>
+</li>
+<li><p>基于邻接表的图算法，需查看某个顶点和与其相邻的实际的边，其总时间代价为O(|V|+|E|)，所以邻接表适合稀疏图。</p>
+</li>
+</ul>
+<h3 id="逆邻接矩阵"><a href="#逆邻接矩阵" class="headerlink" title="逆邻接矩阵"></a>逆邻接矩阵</h3><h3 id="十字链表"><a href="#十字链表" class="headerlink" title="十字链表"></a>十字链表</h3><h3 id="邻接多重表"><a href="#邻接多重表" class="headerlink" title="邻接多重表"></a>邻接多重表</h3><h3 id="边集数组"><a href="#边集数组" class="headerlink" title="边集数组"></a>边集数组</h3>
     </div>
     
     
@@ -354,7 +339,7 @@
   <div class="popular-posts-header">相关文章</div>
   <ul class="popular-posts">
     <li class="popular-posts-item">
-      <div class="popular-posts-title"><a href="\2023\08\02\图\" rel="bookmark">图</a></div>
+      <div class="popular-posts-title"><a href="\2023\07\14\栈与队列\" rel="bookmark">栈与队列</a></div>
     </li>
   </ul>
 
@@ -382,7 +367,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://nanmanchuren.com/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/" title="栈与队列">http://nanmanchuren.com/2023/07/14/栈与队列/</a>
+    <a href="http://nanmanchuren.com/2023/08/02/%E5%9B%BE/" title="图">http://nanmanchuren.com/2023/08/02/图/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -394,9 +379,8 @@
       <footer class="post-footer">
           
           <div class="post-tags">
-              <a href="/tags/%E6%A0%88/" rel="tag"><i class="fa fa-tag"></i> 栈</a>
-              <a href="/tags/%E9%98%9F%E5%88%97/" rel="tag"><i class="fa fa-tag"></i> 队列</a>
               <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag"><i class="fa fa-tag"></i> 数据结构</a>
+              <a href="/tags/%E5%9B%BE/" rel="tag"><i class="fa fa-tag"></i> 图</a>
           </div>
 
         
@@ -405,13 +389,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/" rel="prev" title="实习游记">
-      <i class="fa fa-chevron-left"></i> 实习游记
+    <a href="/2023/07/24/%E7%9F%A9%E9%98%B5/" rel="prev" title="矩阵">
+      <i class="fa fa-chevron-left"></i> 矩阵
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2023/07/14/%E6%A0%91/" rel="next" title="树">
-      树 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -477,7 +458,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A0%88"><span class="nav-number">1.</span> <span class="nav-text">栈</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%BA%E5%BA%8F%E6%A0%88"><span class="nav-number">1.2.</span> <span class="nav-text">顺序栈</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%93%BE%E6%A0%88"><span class="nav-number">1.3.</span> <span class="nav-text">链栈</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%98%9F%E5%88%97"><span class="nav-number">2.</span> <span class="nav-text">队列</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80-1"><span class="nav-number">2.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%BA%E5%BA%8F%E9%98%9F%E5%88%97"><span class="nav-number">2.2.</span> <span class="nav-text">顺序队列</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97"><span class="nav-number">2.3.</span> <span class="nav-text">循环队列</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%93%BE%E5%BC%8F%E9%98%9F%E5%88%97"><span class="nav-number">2.4.</span> <span class="nav-text">链式队列</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8"><span class="nav-number">2.4.1.</span> <span class="nav-text">链式存储</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97"><span class="nav-number">2.5.</span> <span class="nav-text">双端队列</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97%E7%9A%84%E5%BA%94%E7%94%A8"><span class="nav-number">2.6.</span> <span class="nav-text">栈和队列的应用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A0%88%E7%9A%84%E5%BA%94%E7%94%A8"><span class="nav-number">2.6.1.</span> <span class="nav-text">栈的应用</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BE%8B%E9%A2%98"><span class="nav-number">2.7.</span> <span class="nav-text">例题</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%BE"><span class="nav-number">1.</span> <span class="nav-text">图</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BE%E7%9A%84%E7%89%A9%E7%90%86%E5%AE%9E%E7%8E%B0"><span class="nav-number">1.1.</span> <span class="nav-text">图的物理实现</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5-%E7%9B%B8%E9%82%BB%E7%9F%A9%E9%98%B5"><span class="nav-number">1.1.1.</span> <span class="nav-text">邻接矩阵(相邻矩阵)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%BE%E7%9A%84%E7%9B%B8%E9%82%BB%E7%9F%A9%E9%98%B5%E8%A1%A8%E7%A4%BA%E6%B3%95"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">图的相邻矩阵表示法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B7%E4%BD%93%E5%9B%BE%E5%A6%82%E4%B8%8B%EF%BC%9A"><span class="nav-number">1.1.1.2.</span> <span class="nav-text">具体图如下：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%89%B9%E7%82%B9%E5%88%86%E6%9E%90"><span class="nav-number">1.1.1.3.</span> <span class="nav-text">特点分析</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%82%BB%E6%8E%A5%E8%A1%A8"><span class="nav-number">1.1.2.</span> <span class="nav-text">邻接表</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%82%BB%E6%8E%A5%E8%A1%A8%E8%A1%A8%E7%A4%BA%E6%B3%95"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">邻接表表示法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A4%BA%E6%84%8F%E5%9B%BE"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">示意图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%82%BB%E6%8E%A5%E8%A1%A8%E7%9A%84%E7%89%B9%E7%82%B9%E5%88%86%E6%9E%90"><span class="nav-number">1.1.2.3.</span> <span class="nav-text">邻接表的特点分析</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%86%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5"><span class="nav-number">1.1.3.</span> <span class="nav-text">逆邻接矩阵</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8"><span class="nav-number">1.1.4.</span> <span class="nav-text">十字链表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%82%BB%E6%8E%A5%E5%A4%9A%E9%87%8D%E8%A1%A8"><span class="nav-number">1.1.5.</span> <span class="nav-text">邻接多重表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BE%B9%E9%9B%86%E6%95%B0%E7%BB%84"><span class="nav-number">1.1.6.</span> <span class="nav-text">边集数组</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

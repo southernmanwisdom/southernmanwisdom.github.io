@@ -635,4 +635,60 @@
         <tag>指令的动态调度</tag>
       </tags>
   </entry>
+  <entry>
+    <title>图</title>
+    <url>/2023/08/02/%E5%9B%BE/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="图"><a href="#图" class="headerlink" title="图"></a>图</h1><h2 id="图的物理实现"><a href="#图的物理实现" class="headerlink" title="图的物理实现"></a>图的物理实现</h2><h3 id="邻接矩阵-相邻矩阵"><a href="#邻接矩阵-相邻矩阵" class="headerlink" title="邻接矩阵(相邻矩阵)"></a>邻接矩阵(相邻矩阵)</h3><h4 id="图的相邻矩阵表示法"><a href="#图的相邻矩阵表示法" class="headerlink" title="图的相邻矩阵表示法"></a>图的相邻矩阵表示法</h4><ul>
+<li><p>图的顶点元素是|V|的顺序表</p>
+</li>
+<li><p>图的相邻矩阵是一个|V|×|V|矩阵</p>
+</li>
+<li><p>如果从Vi到Vj存在一条边，则对第i行的第j个元素做标记，否则不做标记</p>
+</li>
+<li><p>如果矩阵中的元素要存储边的权值，那么矩阵的每个元素必须足够大（存储权值），或者存储一个指向权值存储位置的指针。</p>
+</li>
+</ul>
+<h4 id="具体图如下："><a href="#具体图如下：" class="headerlink" title="具体图如下："></a>具体图如下：</h4><p><img src="/2023/08/02/%E5%9B%BE/%E9%82%BB%E6%8E%A5%E7%9F%A9%E9%98%B5.png"></p>
+<h4 id="特点分析"><a href="#特点分析" class="headerlink" title="特点分析"></a>特点分析</h4><ul>
+<li><p>可以存储无向图或者有向图</p>
+</li>
+<li><p>相邻矩阵需要存储所有可能的边，不管这条边是否实际存在。</p>
+</li>
+<li><p>没有结构性开销，但是存在空间浪费</p>
+</li>
+<li><p>相邻矩阵的空间代价只与顶点的个数有关，为O(|V²|)，图越密集空间效率越高。</p>
+</li>
+<li><p>基于相邻矩阵的图算法，必须查看它的所有可能的边，导致总时间代价为O(|V²|)，所以相邻矩阵适合密集图的存储。</p>
+</li>
+</ul>
+<h3 id="邻接表"><a href="#邻接表" class="headerlink" title="邻接表"></a>邻接表</h3><h4 id="邻接表表示法"><a href="#邻接表表示法" class="headerlink" title="邻接表表示法"></a>邻接表表示法</h4><ul>
+<li><p>邻接表是一个包含|V|个元素的顺序表</p>
+</li>
+<li><p>每个元素包含两个域，一个存储图的一个顶点信息，另一个是一个指针，指向该顶点的边构成的链表。</p>
+</li>
+<li><p>这个链表通过存储顶点的邻接点来表示对应的边，链表中的每个节点存储顶点的邻接点在顺序表中的位置。</p>
+</li>
+<li><p>如果要存储边的权值，则链表中的结点增加一个数据域(存储权值，或者存储一个指向权值存储位置的指针)</p>
+</li>
+</ul>
+<h4 id="示意图"><a href="#示意图" class="headerlink" title="示意图"></a>示意图</h4><p><img src="/2023/08/02/%E5%9B%BE/%E9%82%BB%E6%8E%A5%E8%A1%A8.png"></p>
+<h4 id="邻接表的特点分析"><a href="#邻接表的特点分析" class="headerlink" title="邻接表的特点分析"></a>邻接表的特点分析</h4><ul>
+<li><p>可以用于存储无向图和有向图</p>
+</li>
+<li><p>邻接表的空间代价与图中边的数目和顶点数目都有关系。每个顶点都要一个数组元素的位置(即使该顶点没有边)，而每条边必须出现在其中某个顶点的链表中，所以邻接表的空间代价为O(|V|+|E|)</p>
+</li>
+<li><p>仅存储图中实际的边，没有空间浪费，但是存在结构性开销，图越稀疏，其空间效率越高</p>
+</li>
+<li><p>基于邻接表的图算法，需查看某个顶点和与其相邻的实际的边，其总时间代价为O(|V|+|E|)，所以邻接表适合稀疏图。</p>
+</li>
+</ul>
+<h3 id="逆邻接矩阵"><a href="#逆邻接矩阵" class="headerlink" title="逆邻接矩阵"></a>逆邻接矩阵</h3><h3 id="十字链表"><a href="#十字链表" class="headerlink" title="十字链表"></a>十字链表</h3><h3 id="邻接多重表"><a href="#邻接多重表" class="headerlink" title="邻接多重表"></a>邻接多重表</h3><h3 id="边集数组"><a href="#边集数组" class="headerlink" title="边集数组"></a>边集数组</h3>]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>图</tag>
+      </tags>
+  </entry>
 </search>
