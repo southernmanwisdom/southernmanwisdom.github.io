@@ -1,224 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>矩阵</title>
-    <url>/2023/07/24/%E7%9F%A9%E9%98%B5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h1><h2 id="矩阵的运算"><a href="#矩阵的运算" class="headerlink" title="矩阵的运算"></a>矩阵的运算</h2><ol>
-<li><p>数乘矩阵和矩阵的加法和数的计算差不多。</p>
-</li>
-<li><p>矩阵的乘法不满足交换律，顺序很重要，第一个矩阵的列数必须和第二个矩阵的行数一致。但是结合律和分配律存在，要注意矩阵的先后顺序。矩阵的乘法消去律不成立。</p>
-</li>
-<li><p>AB&#x3D;0不能推出A&#x3D;0或B&#x3D;0.</p>
-</li>
-<li></li>
-</ol>
+    <title>Hello World</title>
+    <url>/2023/05/23/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>线性代数</category>
-      </categories>
-      <tags>
-        <tag>线性代数</tag>
-        <tag>矩阵</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>树</title>
-    <url>/2023/07/14/%E6%A0%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1><h2 id="树的遍历"><a href="#树的遍历" class="headerlink" title="树的遍历"></a>树的遍历</h2><h3 id="前序遍历"><a href="#前序遍历" class="headerlink" title="前序遍历"></a>前序遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Inorder</span><span class="params">(<span class="type">int</span> rt)</span></span></span><br><span class="line"><span class="function">   </span>&#123; </span><br><span class="line">        <span class="keyword">if</span>(nodeArray[rt].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>)</span><br><span class="line">     &#123; </span><br><span class="line">        <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">left</span>());</span><br><span class="line">        cout&lt;&lt;nodeArray[rt].<span class="built_in">element</span>()&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">        <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">right</span>()); </span><br><span class="line">     &#125; </span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="中序遍历"><a href="#中序遍历" class="headerlink" title="中序遍历"></a>中序遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Inorder</span><span class="params">(<span class="type">int</span> rt)</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">   <span class="keyword">if</span>(nodeArray[rt].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>) </span><br><span class="line">   &#123; </span><br><span class="line">      <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">left</span>());</span><br><span class="line">      cout&lt;&lt;nodeArray[rt].<span class="built_in">element</span>()&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">      <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">right</span>()); </span><br><span class="line">   &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">postorder</span><span class="params">(<span class="type">int</span> rt)</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">    <span class="keyword">if</span>(nodeArray[rt].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>) </span><br><span class="line">  &#123; </span><br><span class="line">    <span class="built_in">postorder</span>(nodeArray[rt].<span class="built_in">left</span>()); </span><br><span class="line">    <span class="built_in">postorder</span>(nodeArray[rt].<span class="built_in">right</span>()); </span><br><span class="line">    cout&lt;&lt;nodeArray[rt].<span class="built_in">element</span>()&lt;&lt;<span class="string">&quot; &quot;</span>; </span><br><span class="line">  &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="层次遍历"><a href="#层次遍历" class="headerlink" title="层次遍历"></a>层次遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">LevelOrderTraverse</span><span class="params">(<span class="type">int</span> rt)</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">   queue&lt;<span class="type">int</span>&gt; q;</span><br><span class="line">   <span class="keyword">if</span>(nodeArray[rt].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>)</span><br><span class="line">          q.<span class="built_in">push</span>(rt); </span><br><span class="line">   <span class="type">int</span> temp;</span><br><span class="line">   <span class="keyword">while</span>(!q.<span class="built_in">empty</span>()) </span><br><span class="line">  &#123; </span><br><span class="line">     temp=q.<span class="built_in">front</span>();</span><br><span class="line">     cout&lt;&lt;nodeArray[temp].<span class="built_in">element</span>()&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">     q.<span class="built_in">pop</span>();</span><br><span class="line">     <span class="type">int</span> l=nodeArray[temp].<span class="built_in">left</span>();</span><br><span class="line">     <span class="type">int</span> r=nodeArray[temp].<span class="built_in">right</span>();</span><br><span class="line">     <span class="comment">//左右孩子不为空时则依次进入队列 </span></span><br><span class="line">     <span class="keyword">if</span>(nodeArray[l].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>)</span><br><span class="line">     q.<span class="built_in">push</span>(l);</span><br><span class="line">     <span class="keyword">if</span>(nodeArray[r].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>)</span><br><span class="line">     q.<span class="built_in">push</span>(r);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>层次遍历可以用队列来实现，先将根节点放入队列中，然后弹出，同时将子节点放入队列，这样一直循环一直到队列为空为止。</p>
-<p>记得当时上人工智能的时候就用到了队列，好像是A*算法吧，虽然不是树的结构，是图的结构，但也大同小异。</p>
-]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>树</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>栈与队列</title>
-    <url>/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>栈是只允许在一段进行插入和删除操作的特殊的线性表。上课时老师把栈类比为弹匣，子弹被压进弹匣，不能从另一端出来，所以后面放进来的反而能先出，正所谓”后来居上”。 </p>
-<p>栈的基本操作大同小异，基本如下：</p>
-<blockquote>
-<p>1.初始化一个空栈</p>
-<p>2.判断栈是否为空</p>
-<p>3.将一个元素入栈：记得检查是否栈满,链栈不必检查</p>
-<p>4.将一个元素出栈：记得检查是否栈空</p>
-<p>5.返回栈顶的值</p>
-<p>6.销毁栈，释放空间</p>
-</blockquote>
-<h2 id="顺序栈"><a href="#顺序栈" class="headerlink" title="顺序栈"></a>顺序栈</h2><p>顺序栈顾名思义，就是用顺序结构实现的栈，其主要特点和顺序表一致，需要划一片连续的存储空间来进行存储，基本上通过数组实现。</p>
-<p>栈的顺序存储类型可描述为：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> </span><br><span class="line">&#123; </span><br><span class="line">  <span class="type">int</span> data[MaxSize]; <span class="comment">// 创建栈的空间，用数组表示</span></span><br><span class="line">  <span class="type">int</span> top; <span class="comment">// 用于表示栈顶元素的在数组中的位置</span></span><br><span class="line">&#125;SqStack;</span><br></pre></td></tr></table></figure>
-
-<p>top可以设置为-1也可以设置为0，这个每个题目不同视情况而定。</p>
-<p>但顺序栈的缺点和顺序表一样，空间大小是固定死的，不能随机应变，而且还要连续的存储空间，有时候不易实现。</p>
-<p>顺序栈中为了更加有效利用存储空间，提出共享栈，让两个顺序栈共享一个一维数组空间，两个栈的空间相互调节，通过两个栈顶指针相减为1判断栈满，减少存储空间，降低发生上溢的可能。</p>
-<p><img src="/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/%E5%85%B1%E4%BA%AB%E6%A0%88.png"></p>
-<h2 id="链栈"><a href="#链栈" class="headerlink" title="链栈"></a>链栈</h2><p>链栈也很明显，采用了链式存储结构，优点在于便于多个栈共享存储空间和提高其效率，并且不会存在栈满上溢的情况。所有的操作都是在单链表的表头进行。</p>
-<p>队列的基本操作如下：</p>
-<blockquote>
-<p>1.初始化队列</p>
-<p>2.判断队列是否为空</p>
-<p>3.入队，要检查队列是否满了</p>
-<p>4.出队，要检查队列是否为空</p>
-<p>5.读队头元素。</p>
-</blockquote>
-<h1 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h1><h2 id="前言-1"><a href="#前言-1" class="headerlink" title="前言"></a>前言</h2><p>队列和栈一样，也是受到限制的线性表，他只能在一端输出一端输入，和我们平时的排队很像，不允许插队，也不能中途离队，只能从队尾开始排，从队头出。</p>
-<h2 id="顺序队列"><a href="#顺序队列" class="headerlink" title="顺序队列"></a>顺序队列</h2><p>顺序队列还是一样还是顺序结构，分配一块连续的存储空间存放队列的元素，并附设两个指针：队头指针和队尾指针。</p>
-<p>队列的顺序存储类型可描述为：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> &#123; </span><br><span class="line">    <span class="type">int</span> data[MaxSize];<span class="comment">// 用于存放队列元素</span></span><br><span class="line">    <span class="type">int</span> front, rear;<span class="comment">// 用于存放队头和队尾指针，分别指向队头元素在队列数组中的位置和队尾元素的下一个位置</span></span><br><span class="line">&#125;SqQueue;</span><br></pre></td></tr></table></figure>
-
-<p>队尾指针指向的位置也是可以变动的，视情况而定。</p>
-<p>但是顺序队列有他的局限性，那就是判断队列是否满了不好判断，举个例子：</p>
-<p>先将队列填满，那么rear队尾指针就已经到了maxsize-1，但是这时队头出去一个，那么这个队列就空出了一个，那么这个队列就没有满，但是rear的指针是不变的，所以并不能通过rear指针的位置判断队列是否满。</p>
-<h2 id="循环队列"><a href="#循环队列" class="headerlink" title="循环队列"></a>循环队列</h2><p>刚才说了顺序队列的缺陷，现在顺势引出循环队列，循环队列可以将其看作是一个环状的图形，将存储队列的元素从逻辑上看作是一个环，称为循环队列。但是当rear指针指到maxsize-1时，下一个就要到位置为0的地方，所以得到的结果应该通过取余数的方式实现         **%**。</p>
-<p>那么循环队列判断队空和队满的条件是什么？显然队空的条件是Q.front&#x3D;&#x3D;Q.rear。若入队元素的速度快于出队元素的速度，那队尾指针很快就会赶上队首指针，到时候队满的条件也成了 Q.front&#x3D;&#x3D;Q.rear。以下有三种方法解决：</p>
-<p><mark>1.空出一个单元不存储数据，这样的话入队就少了一个队列单元，这种做法比较普遍。那么队头指针在队尾指针的下一个位置是队满的标志。</mark> </p>
-<blockquote>
-<p>队满条件：(Q.rear+1)%MaxSize&#x3D;&#x3D;Q.front.</p>
-<p>队空条件：Q.front&#x3D;&#x3D;Q.rear.</p>
-<p>队列中元素的个数：(Q.rear-Q.front+MaxSize)%MaxSize.</p>
-</blockquote>
-<p><mark>2.类型增设表示元素个数的数据成员size。</mark> </p>
-<blockquote>
-<p>队满条件：Q.size&#x3D;MaxSize。</p>
-<p>队空条件：Q.Size&#x3D;0.</p>
-</blockquote>
-<p><mark>3.类型中设置tag数据成员，以区分队空还是队满。tag&#x3D;0时，就表示上一个操作为删除，如果Q.front&#x3D;&#x3D;Q.rear，那就是队空；tag&#x3D;1时，表示上一个操作为插入，如果Q.front&#x3D;&#x3D;Q.rear，就表示队满。</mark></p>
-<h2 id="链式队列"><a href="#链式队列" class="headerlink" title="链式队列"></a>链式队列</h2><h3 id="链式存储"><a href="#链式存储" class="headerlink" title="链式存储"></a>链式存储</h3><hr>
-<p>队列的链式表示被称为链队列，它是一个同时带有队头指针和队尾指针的单链表。头指针指向队头结点，尾指针指向队尾结点，及单链表最后一个结点。<u>但是要注意头指针和头结点是不一样的，一个指向的是逻辑结构上的队头，一个指向链表的表头。</u>以下是队列的链式存储类型：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 定义链式队列的结点</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> &#123;</span><br><span class="line">    <span class="type">int</span> data;</span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">LinkNode</span> *next;</span><br><span class="line">&#125;LinkNode;</span><br><span class="line"><span class="comment">// 定义链式队列</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> &#123;</span><br><span class="line">    LinkNode *front, *rear;<span class="comment">// 链式队列中包含指向队头和队尾的指针，由于队列是队头进队尾出，因此需要标记队尾指针</span></span><br><span class="line">    <span class="type">int</span> length;<span class="comment">// 用于记录队列的长度</span></span><br><span class="line">&#125;LinkQueue;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>&amp;ensp;&amp;ensp;  值得注意的是，不带头结点的链式队列在操作上往往比较麻烦，因此通常将链式队列设计成一个带头结点的单链表，这样操作和删除操作就统一了。</p>
-<p>&amp;emsp; &amp;emsp; 用单链表表示的链式队列特别适合数据元素变动比较大的情形，而且不存在队列满且溢出的问题。另外，如果程序中要使用多个队列，与多个栈的情形一样，最好使用链式队列，这样不会出现存储分配不合理和“溢出”的问题。所以之前提到的循环队列用在链式队列中纯属画蛇添足。</p>
-</blockquote>
-<h2 id="双端队列"><a href="#双端队列" class="headerlink" title="双端队列"></a>双端队列</h2><h2 id="栈和队列的应用"><a href="#栈和队列的应用" class="headerlink" title="栈和队列的应用"></a>栈和队列的应用</h2><h3 id="栈的应用"><a href="#栈的应用" class="headerlink" title="栈的应用"></a>栈的应用</h3><hr>
-<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>1. </p>
-]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>栈</tag>
-        <tag>队列</tag>
-        <tag>数据结构</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>实习游记</title>
-    <url>/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h1><p>21点出发长沙火车站，我几乎没有坐过绿皮火车，唯有的记忆就是初一的时候从厦门往来坐了次卧铺，感觉空间还行，和朋友们打牌看书就欢快的度过了一天一夜。并没有感受到采访时经常提到的人们乘坐绿皮火车回家的辛苦。</p>
-<blockquote>
-<p>那次的厦门之行其实没有太多值得回忆的地方，可能是因为那时候还很小，又或者景观虽然美丽但是却没有太多的感触，可能身边的朋友比美景更重要。记忆比较深刻的大概是和mhy和zjy跑到厦门大学的书店买了纪念品和几本书——《洗脑》《反洗脑》《死神永生》，前面两本书后来被我捐到初中的图书馆里面了。</p>
-</blockquote>
-<p>从地铁站出来，引入眼帘的就是宏伟壮观的长沙火车站，火车站就伫立在一大块平地上，附近伴生的建筑也为数众多，火车站这三个大字就位于建筑的顶上，火红的标字提醒着附近的人们这里是哪里。来往的人们也络绎不绝，大多数都是来往的旅客，其中还夹杂着几个为生活谋生的人，他们挥舞着手中的商品来进行推销，却总是遭到人们的拒绝。走进候车站，人山人海，大家都席地而坐等待候车，更有甚者甚至连地铺都打好了。</p>
-<p>等啊等终于车到了，我们提着行李箱一路奔驰到车门处，学校给我们订的票是硬座，一走进去就惊到了，中间的道路十分的狭窄，能通过行李箱就已经是极限了，然后座位也是非常的狭窄，我的那个位置要坐下3个人，但是只有最里面才有小桌子，也没有充电的地方，由于我没有充电宝所以只能节省用电，掏出了我新买的《地铁》小说开始看，其实车里面的灯也是属于不是很亮的类型，散发出淡淡的黄光，就像我现在住的酒店的灯光，不是很适合读书。看了一会就感觉到了疲倦，于是闭目养神。没有桌子的依靠不方便睡眠，所以只能小憩一会就醒来继续看书。就这样半睡半醒的度过了那一段时间，终于天亮了，天亮得很早，5点出头就已经白昼，路上的美景也有不少，印象最深刻的就是广阔的农田，因为地势的平坦所以很多土地连在一起做的农田，青青的麦子在风中摇曳，给人一种”勃勃生机，万物竟发”的景象(笑)，还有就是火车在行进路上时不时就发出鸣笛的声音，悠长而尖锐，然后就看到身着工作服的火车工人们在旁边默默的等待火车的通过，感谢他们，到了白天找刘杰接了充电宝，然后开始看起了大决战系列的电影解说，时间就这样悄然过去，直到到达目的地。</p>
-<p>到了杭州，还没出去，只是中途在大巴上看到的景象，感觉杭州和长沙并无太大区别，都是耸立的建筑群，然后是熙熙往来的人们。也好似我在写这篇游记时的酒店周旁，正响着耳熟能详的广场舞音乐，让我感觉好像回到了小学，我坐在自己的书房看书的时候就是广场舞音乐伴随着我。看起来所有城市都一样，有着共通性。但是我认为每个城市都有着属于自己的精神底色，这是时代、历史、文化所赋予给人们的。而要看到这一点，那就等自由时间出去游玩再去探索吧。</p>
-<p>今天就到这里，因为火车上实在是疲惫，睡午觉的时候一不小心睡过了头，甚至还影响了晚上的身体，所以今天自由活动就没有出去</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A61.jpg"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A62.jpg"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A63.jpg"></p>
-<h1 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h1><p>大清早一起来就发现已经7点半了，赶紧准备好行李就下楼吃早饭，发现睡觉还是睡得太晚了，7点多起来居然还是带着一丝困意，早餐还算丰盛，有手抓饭、包子馒头、烧麦、豆浆等等，匆匆吃了点就下楼准备上车。</p>
-<p>上车后观察沿途的风景，我发现杭州的绿化做的很好，到处都处在绿荫之下，每隔3步就是一棵树，放眼望去一片绿意，让人心旷神怡。而且也能明显的看出杭州对这次延迟的亚运会的重视，到处都贴满了相关的标语和吉祥物–三个类似于当年奥运会的福娃一样的小人，甚至连杭州本地的企业也是相当的配合政府的宣传工作，在给我们的ppt上都有着亚运相关的标识。</p>
-<p>上午我们去的是海康威视，不查不知道，海康威视居然是全球安防市场的龙头企业，是我孤陋寡闻了(😀)，先是去的3期区，去看了相关的展会，走进去体验了很多很有意思的科技，只是可惜因为保密的缘故没有拍照。</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E6%B5%B7%E5%BA%B72.jpg"></p>
-<p>看得出，很多相关技术都是与感知有关的技术，其中最主要的还是基于视觉的感知吧，后来跟我们分享的主管人也是这么说的，一开始就是靠着监控发的家。应该是后面再一步步拓展扩大了业务范围，有了新的理念–安防。这种东西可以和政府形成密切的商业关系，后面也证实了我的看法，与政府的合作业务占比五分之一。只能说怪不得学校开设了计算机视觉和人工智能这两门课，足以证明这可能是未来的主流方向，不过被封锁的道路会走的相当的艰难。</p>
-<p>然后就到了四期区的会议厅听报告，几位给我们宣讲的学长很有意思，两位都很腼腆，其中一位学长说的话也很有道理，就是如果你真的下定决心去做一件事，那么一年的时间足以，这次实习游玩结束之后我也当定下自己的考研决心，收心学习了。海康威视的人才培养方案看起来也相当的可以，不管是从技术层面还是管理层面都很不错，而且正常的福利薪资都很不错。</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E6%B5%B7%E5%BA%B71.jpg"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E6%B5%B7%E5%BA%B73.jpg"></p>
-<p>听完会议厅就上4楼去食堂就餐，食堂的饭菜很多种多样，我点了粉蒸肉、口水鸡、蒸蛋、瓦罐煨汤，结果也没花很多钱，感觉比学校强(乐)，不过仔细品尝还是和外面的饭店不能比，尝起来味道还不够到位。</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E9%A5%AE%E9%A3%9F1.jpg"></p>
-<p>吃完饭就打道回府了，但是来杭州不去西湖就等于白来，于是在我们的强烈要求下，田泽安老师主动帮我们询问最后把我们丢到地铁站的门口，西湖之旅就这样拉开帷幕。杭州的地铁站的空间感觉比长沙要大，但是人并不算很多，而且检查也比较的放松，只扫描一下包就放行了。车费也比长沙要贵，做一段路程就有将近10元的车费，不过我们也坐了很长的一段距离就对了,杭州应该比长沙还要大很多。</p>
-<p>从断桥残雪开始一直走到雷峰塔，从中午一直走到了晚上，感觉西湖并没有想象中的那样充满人文关怀和历史味，更多的反而是自然风光，西湖边上最多的是游客而不是本地人，或者说本地的文化没有体现得出来，感觉还是得去集市或者书店这样的地方可能在人与人之间的交流上才会体现出来吧。最后走的腿都软了，西湖感觉作为一个本地锻炼休息的公园比较的合适，至于其他的就感觉商业气息比较浓重了。</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E8%A5%BF%E6%B9%961.jpg"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E8%A5%BF%E6%B9%962.jpg"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E8%A5%BF%E6%B9%963.jpg"></p>
-<p>希望后面能够有机会去一趟书店，听说这里的书店很富有古代的气息，而且有很多古籍。并且还想要一个自己的私有的印章。</p>
-<h1 id="第三天"><a href="#第三天" class="headerlink" title="第三天"></a>第三天</h1><p>上午阴雨连绵，然后坐车坐了很久，长途非常犯困，就在路上一路睡了过去，不过在睡前也看了看杭州的风景，在途经山体的时候注意到了山上面虽然郁郁葱葱，但是山体的侧面露出的岩石光秃秃的，到处都是被腐蚀的痕迹，有的山体甚至还铺上了一层网络，没有什么植物生长在上面而且还是垂直的，感觉山体滑坡的风险还是不小的。</p>
-<p>最后到了今天要参观的企业，不过感觉不如昨天的海康，官腔味比较的浓，科研的顶尖成果没怎么看到，感觉传统工业要大于高新科技，不过看得到党建做的还是可以，应该是属于中流砥柱类型的工业集团吧，与人们的日常生活密切相关。</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E5%85%9A%E5%BB%BA.jpg"></p>
-<p>然后吃过盒饭就继续坐车回去了，但是由于下雨的缘故(下午没下雨了，我不知道&#x2F;(ㄒoㄒ)&#x2F;~~)，所以在房间里玩了一天的游戏。</p>
-<h1 id="第四天"><a href="#第四天" class="headerlink" title="第四天"></a>第四天</h1><p>今天是在杭州的最后一天，也是最有意义的一天。</p>
-<p>上午很早就起来，把东西都收拾好确认没有遗漏后就离开了酒店，上午还是有一点小雨的，今天来到了与第二天的人工智能小镇在一块地的之江实验室。这下可真的是国家级别的实验室了，产出的成果非常丰富，而且有很多的专利和论文都在世界的前列，可惜和海康一样禁止拍照，值得一提的是原来之江实验室和湖大有合作，看来湖大在编译领域还是颇有建树的，后面还搞了个签约仪式，可惜学生去不了。然后报告也是面向博士后的报告，基本上都是成果和成员方面的，为科研配套的建筑都在建筑之中，相当的可以。可惜的就是不管饭，这一点差评(😀)！</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E9%A5%AE%E9%A3%9F2.jpg"></p>
-<p>下午放完行李就是自由活动时间，因为第三天没出去，所以最后一段时间肯定要好好利用，根据旅游手册上面的描写，河坊街有很多的纪念品和当地特产可以购买，所以我坐这地铁坐到江城路再转到吴山广场来到了河坊街，果然时古色古香的建筑。</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E6%B2%B3%E5%9D%8A%E8%A1%971.jpg"></p>
-<p>先来到了一条古玩街，这一条街上都是在售卖小手工艺品，店面很小，仅仅只能坐进一个人，掀开帷幕进去，就可以感到丝丝凉意，然人惬意。但是这条街开的店面不多，只有一半不到的店面开着，我在其中寻找印章店，还真给我找到了，但是老板居然不在，仅留下商品在这里，等待片刻，原来老板就在街边上乘凉。只见老板在左下角打开一个小木板，露出一个小洞，然后老板就自己费劲的钻了进去，很是辛苦。然后就跟老板谈好了价钱，搞定了印章。接着买了点龙井给家里人之后，我直奔中山中路，想一观书房的模样。</p>
-<p>穿过了一段古建筑群后来到了书房面前，书房不大，但是边上并无建筑，反而很空旷，书房用围栏给围起来，不同于其他的建筑，书房看起来是木头搭起来的，看起来更具韵味。走进书房，就看到很多小玩意摆在边上，很多是古代南宋时期的一些作品的介绍，还有一些瓷器和木器的小玩意，别具匠心，穿过了一段狭窄的道路，终于来到了空旷的房间，说是空旷，但是平地上并不空旷，摆满了各种纪念品的小玩意供来往的人们观赏和购买。真正空旷的地方反而是阶梯，阶梯很长，并且在阶梯两边设立了坐枕，大家都坐在两边，有的人戴上耳机，然后津津有味的阅读手上的书籍；有的人把鞋一脱，然后把手和脚搭在冰凉的木头上，享受着这炎热的夏日难得的凉爽，还有小孩躺在木板上，将头放在母亲的腿上，深深的睡了过去，神情喜悦。但是这里环境主要还是安静，不管什么样的人，来到这处地方都会安静下来，不想惊扰什么似的。来都来了，总得挑一本书去吧，然后我就看了看相关的书籍，书架很高，基本上只有前三层可以看到，再往上就是人们够不到也看不到的地方了，但是上面也摆放满了书籍，让人禁不住好奇上面难道是什么禁书吗。再来看书的种类，种类还是比较的丰富，很多都是历史、文化、艺术方面的书，但是都并不有名，大多小众，而且一个种类也就三排，图书量也不大。并且并不像旅游指南上面所的那样大多为南宋时期的作品或是描述南宋文化的作品。最后我挑来选去，选择了孟德斯鸠的《论法的精神》，久仰大名，希望能好好阅读。之后就打道回府了。</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E4%B9%A6%E6%88%BF1.jpg"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E4%B9%A6%E6%88%BF2.jpg"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E4%B9%A6%E6%88%BF3.jpg"></p>
-<p>感觉南宋书房不愧书房之名吧，感觉比起单纯的卖书，反而更注重一种氛围，希望人们能够在这样的安静环境下仔细阅读，卖的什么书反而不是很重要，就像是主题店一样。</p>
-<p>然后就踏上了回家的步伐，杭州之旅就这样结束了。</p>
-<p>最后我们还是硬座回去，但是与之前不同，这次显得更加的拥挤，站票的人们挤作一团，蜷缩在狭窄的过道上，大部分人都在没有空调的出口那里挤着，十分的困难，更重要的是我们定的晚上的票，所以他们不得不考虑站着睡觉。有的人甚至还看上了我露出来的一点点座位的缝隙，将屁股移到那里只为了让自己能轻松一点。最后实在不好意思就席地而坐然后双手抱着膝盖这样睡觉，还要被时不时路过上厕所的人叫醒。甚至还有人2点多了还要跑到出口那里去抽烟，我也是醉了(😶)。在门口的那个胖哥们甚至站着都睡着了，还发出了很大的鼾声，姿势也很搞笑，一只手竖着搭载门沿上，身体靠在这只手的位置，另一只手垂直于门沿，手掌搭在另一个门沿上，形成了一个“直角”的姿势，不过也很辛酸的，看起来实在是太辛苦了，而且这样也没有办法睡太死，稍有动静就醒来了，那个兄弟就只能费劲的张开半只眼来观察周围的动静，然后又很快的睡着很快的醒来，周而复始。我这次还是没有分到有桌子的那一侧，所以我只好坐正了睡觉，但是每睡不了半小时就被脖子的酸痛所“叫醒”，实在没办法睡了，根本睡不着，但是又很困，睡不着就玩玩手机，然后不知不觉进入睡眠等待下一次的醒来。于是在这种半梦半醒的状态下迎来了天亮，“<strong>相与枕藉乎舟中，不知东方之既白</strong>”。</p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E5%BD%92%E9%80%941.jpg"></p>
-<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E5%BD%92%E9%80%942.jpg"></p>
-]]></content>
-      <categories>
-        <category>游记</category>
-      </categories>
-      <tags>
-        <tag>游记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>最近的一些烦恼或者想法</title>
-    <url>/2023/07/01/%E6%9C%80%E8%BF%91%E7%9A%84%E4%B8%80%E4%BA%9B%E7%83%A6%E6%81%BC%E6%88%96%E8%80%85%E6%83%B3%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近看了很多的关于解放战争的视频，深感现在中国的不易。但是又同时看到了地方债的问题，产业转型升级的困难和许多地方政府出现的问题，比如青海湖要围起来。每当看到底下的评论区阴阳怪气时总是颇感难受，但是基于实事求是的原则来说，这些中很多都是事实，不能因为别人的过度放大而忽视。我们是“幸运”的一代，生长于经济增长的大环境中，但是在即将登上历史舞台的时候遇到了疫情，从而经济下行，就业困难。有时候总在想，一代人有一代人的使命，或许我们这一代人的使命就是带领中国走出现在的困境迈出下一步，但是又深感无力，因为自己的力量微薄并且不算努力，能力有限，就只能干着急。</p>
-<p>我和我爸其实也讨论过现在的困难处境，但是我爸也告诉我说这些事情有必要了解，因为大环境的改变会影响所有人，但是又不可过度关注，因为自己改变不了这个世界，我只能先改变自己，先把自己的事情做好，再来改变世界。过去人们的艰苦奋斗造就了现在中国人的辉煌，我就不信现在还能比过去更加的困难吗。雄关漫道真如铁，而今迈步从头越。在前人的基础上迈出属于自己的一步吧。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>数组和链表</title>
-    <url>/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="基础知识-数组与链表"><a href="#基础知识-数组与链表" class="headerlink" title="基础知识-数组与链表"></a>基础知识-数组与链表</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><strong>数组</strong>是被操作系统分配的一个内存块，用来保存数组的元素。通过使用特定元素的索引作为数组下标，可以在常数时间内访问数组元素。</p>
-<h3 id="数组的优点"><a href="#数组的优点" class="headerlink" title="数组的优点"></a>数组的优点</h3><blockquote>
-<p>简单且易用</p>
-<p>访问元素快(常数时间)</p>
-</blockquote>
-<h3 id="数组的缺点"><a href="#数组的缺点" class="headerlink" title="数组的缺点"></a>数组的缺点</h3><blockquote>
-<p>大小固定：数组的大小是静态的（要在使用前指定数组的大小）</p>
-<p>分配一个块：数组初始化分配空间时，有时不可能分配能存储整个数组的内存（如果数组的大小太大）</p>
-<p>基于位置的插入操作实现复杂</p>
-</blockquote>
-<h2 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h2><p>链表是一种用于存储数据集合的数据结构。链表中相邻连续元素之间通过指针链接，最后一个元素的后继指针的值为NULL。</p>
-<h3 id="链表的优点"><a href="#链表的优点" class="headerlink" title="链表的优点"></a>链表的优点</h3><blockquote>
-<p>链表可以在常数时间拓展</p>
-<p>在程序执行过程中，链表的大小可以增长或减小</p>
-<p>链表的空间能够按需分配</p>
-<p>没有内存空间的浪费</p>
-</blockquote>
-<h3 id="链表的缺点"><a href="#链表的缺点" class="headerlink" title="链表的缺点"></a>链表的缺点</h3><blockquote>
-<p>链表的主要缺点在于访问单个元素的时间开销问题</p>
-<p>存储空间的离散性降低了元素的存储效率</p>
-<p>链表中的指针需要额外的内存开销</p>
-</blockquote>
-<h2 id="物理实现"><a href="#物理实现" class="headerlink" title="物理实现"></a>物理实现</h2><p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E6%95%B0%E7%BB%84.png"></p>
-<p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8.png"></p>
-<h2 id="补充-7-1"><a href="#补充-7-1" class="headerlink" title="补充-7.1"></a>补充-7.1</h2><p>顺序表的实现就是用数组完成的，优势就在于访问数据的时候直接根据下标就可以快速寻找，而链表不行，只能回归表头再顺序执行，消耗的时间比较长。但是再增删数据的情况下，数组就明显不如链表，数组必须移动增删的数据后面的数据，而链表只需要把数据域后面的指针改一下指向的方向就可以了。</p>
-]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>线性表</tag>
-      </tags>
   </entry>
   <entry>
     <title>6月份学习计划</title>
@@ -229,8 +27,21 @@
 <p>数据结构的学习还是想放到下一个月，7月份已经放暑假了，希望能够留校，这样就可以在图书馆里学习，家里确实不适合学习，也没有免费的空调蹭。</p>
 ]]></content>
       <categories>
-        <category>计划</category>
+        <category>-reading</category>
       </categories>
+  </entry>
+  <entry>
+    <title>哥们的第一篇博客</title>
+    <url>/2023/05/24/%E5%93%A5%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2-%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id><a href="#" class="headerlink" title></a></h1><h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><p>其实我开始博客的时间已经相当晚了，现在已经是大三的下学期即将画上句号，按理说能学得都已经学完了，现在正是把学到的东西实践的时刻了。可惜我学艺不精，所以决定考研这条路，也就意味着我的专业课知识得从头来过，不过这也没什么好后悔的，正好以这为教训，引以为鉴。</p>
+<blockquote>
+<p>种一棵树最好的时间是十年前，其次是现在。</p>
+</blockquote>
+<p>准备搭建博客的目的也是为此，决定将我学到的东西分享到网上，正好督促我自己的学习进度，并且这种文书工作我也并不讨厌，可以说得上相得益彰了。总之，学习的路很长，漫漫长路从脚下开始。从今天开始我会将一些学习笔记、不那么隐私的生活感悟写进我的博客，如果你看到了，请付之一笑，这些只不过是我年少的妄语，随着时间的推移，身份的改变，我自己肯定也会改变的，再回过头来看说不定也觉得现在的自己年轻幼稚。</p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
   </entry>
   <entry>
     <title>基本流水线</title>
@@ -311,6 +122,106 @@
       <tags>
         <tag>流水线</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>数组和链表</title>
+    <url>/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="基础知识-数组与链表"><a href="#基础知识-数组与链表" class="headerlink" title="基础知识-数组与链表"></a>基础知识-数组与链表</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p><strong>数组</strong>是被操作系统分配的一个内存块，用来保存数组的元素。通过使用特定元素的索引作为数组下标，可以在常数时间内访问数组元素。</p>
+<h3 id="数组的优点"><a href="#数组的优点" class="headerlink" title="数组的优点"></a>数组的优点</h3><blockquote>
+<p>简单且易用</p>
+<p>访问元素快(常数时间)</p>
+</blockquote>
+<h3 id="数组的缺点"><a href="#数组的缺点" class="headerlink" title="数组的缺点"></a>数组的缺点</h3><blockquote>
+<p>大小固定：数组的大小是静态的（要在使用前指定数组的大小）</p>
+<p>分配一个块：数组初始化分配空间时，有时不可能分配能存储整个数组的内存（如果数组的大小太大）</p>
+<p>基于位置的插入操作实现复杂</p>
+</blockquote>
+<h2 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h2><p>链表是一种用于存储数据集合的数据结构。链表中相邻连续元素之间通过指针链接，最后一个元素的后继指针的值为NULL。</p>
+<h3 id="链表的优点"><a href="#链表的优点" class="headerlink" title="链表的优点"></a>链表的优点</h3><blockquote>
+<p>链表可以在常数时间拓展</p>
+<p>在程序执行过程中，链表的大小可以增长或减小</p>
+<p>链表的空间能够按需分配</p>
+<p>没有内存空间的浪费</p>
+</blockquote>
+<h3 id="链表的缺点"><a href="#链表的缺点" class="headerlink" title="链表的缺点"></a>链表的缺点</h3><blockquote>
+<p>链表的主要缺点在于访问单个元素的时间开销问题</p>
+<p>存储空间的离散性降低了元素的存储效率</p>
+<p>链表中的指针需要额外的内存开销</p>
+</blockquote>
+<h2 id="物理实现"><a href="#物理实现" class="headerlink" title="物理实现"></a>物理实现</h2><p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E6%95%B0%E7%BB%84.png"></p>
+<p><img src="/2023/06/14/%E6%95%B0%E7%BB%84%E5%92%8C%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8.png"></p>
+<h2 id="补充-7-1"><a href="#补充-7-1" class="headerlink" title="补充-7.1"></a>补充-7.1</h2><p>顺序表的实现就是用数组完成的，优势就在于访问数据的时候直接根据下标就可以快速寻找，而链表不行，只能回归表头再顺序执行，消耗的时间比较长。但是再增删数据的情况下，数组就明显不如链表，数组必须移动增删的数据后面的数据，而链表只需要把数据域后面的指针改一下指向的方向就可以了。</p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>线性表</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>实习游记</title>
+    <url>/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h1><p>21点出发长沙火车站，我几乎没有坐过绿皮火车，唯有的记忆就是初一的时候从厦门往来坐了次卧铺，感觉空间还行，和朋友们打牌看书就欢快的度过了一天一夜。并没有感受到采访时经常提到的人们乘坐绿皮火车回家的辛苦。</p>
+<blockquote>
+<p>那次的厦门之行其实没有太多值得回忆的地方，可能是因为那时候还很小，又或者景观虽然美丽但是却没有太多的感触，可能身边的朋友比美景更重要。记忆比较深刻的大概是和mhy和zjy跑到厦门大学的书店买了纪念品和几本书——《洗脑》《反洗脑》《死神永生》，前面两本书后来被我捐到初中的图书馆里面了。</p>
+</blockquote>
+<p>从地铁站出来，引入眼帘的就是宏伟壮观的长沙火车站，火车站就伫立在一大块平地上，附近伴生的建筑也为数众多，火车站这三个大字就位于建筑的顶上，火红的标字提醒着附近的人们这里是哪里。来往的人们也络绎不绝，大多数都是来往的旅客，其中还夹杂着几个为生活谋生的人，他们挥舞着手中的商品来进行推销，却总是遭到人们的拒绝。走进候车站，人山人海，大家都席地而坐等待候车，更有甚者甚至连地铺都打好了。</p>
+<p>等啊等终于车到了，我们提着行李箱一路奔驰到车门处，学校给我们订的票是硬座，一走进去就惊到了，中间的道路十分的狭窄，能通过行李箱就已经是极限了，然后座位也是非常的狭窄，我的那个位置要坐下3个人，但是只有最里面才有小桌子，也没有充电的地方，由于我没有充电宝所以只能节省用电，掏出了我新买的《地铁》小说开始看，其实车里面的灯也是属于不是很亮的类型，散发出淡淡的黄光，就像我现在住的酒店的灯光，不是很适合读书。看了一会就感觉到了疲倦，于是闭目养神。没有桌子的依靠不方便睡眠，所以只能小憩一会就醒来继续看书。就这样半睡半醒的度过了那一段时间，终于天亮了，天亮得很早，5点出头就已经白昼，路上的美景也有不少，印象最深刻的就是广阔的农田，因为地势的平坦所以很多土地连在一起做的农田，青青的麦子在风中摇曳，给人一种”勃勃生机，万物竟发”的景象(笑)，还有就是火车在行进路上时不时就发出鸣笛的声音，悠长而尖锐，然后就看到身着工作服的火车工人们在旁边默默的等待火车的通过，感谢他们，到了白天找刘杰接了充电宝，然后开始看起了大决战系列的电影解说，时间就这样悄然过去，直到到达目的地。</p>
+<p>到了杭州，还没出去，只是中途在大巴上看到的景象，感觉杭州和长沙并无太大区别，都是耸立的建筑群，然后是熙熙往来的人们。也好似我在写这篇游记时的酒店周旁，正响着耳熟能详的广场舞音乐，让我感觉好像回到了小学，我坐在自己的书房看书的时候就是广场舞音乐伴随着我。看起来所有城市都一样，有着共通性。但是我认为每个城市都有着属于自己的精神底色，这是时代、历史、文化所赋予给人们的。而要看到这一点，那就等自由时间出去游玩再去探索吧。</p>
+<p>今天就到这里，因为火车上实在是疲惫，睡午觉的时候一不小心睡过了头，甚至还影响了晚上的身体，所以今天自由活动就没有出去</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A61.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A62.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E7%81%AB%E8%BD%A63.jpg"></p>
+<h1 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h1><p>大清早一起来就发现已经7点半了，赶紧准备好行李就下楼吃早饭，发现睡觉还是睡得太晚了，7点多起来居然还是带着一丝困意，早餐还算丰盛，有手抓饭、包子馒头、烧麦、豆浆等等，匆匆吃了点就下楼准备上车。</p>
+<p>上车后观察沿途的风景，我发现杭州的绿化做的很好，到处都处在绿荫之下，每隔3步就是一棵树，放眼望去一片绿意，让人心旷神怡。而且也能明显的看出杭州对这次延迟的亚运会的重视，到处都贴满了相关的标语和吉祥物–三个类似于当年奥运会的福娃一样的小人，甚至连杭州本地的企业也是相当的配合政府的宣传工作，在给我们的ppt上都有着亚运相关的标识。</p>
+<p>上午我们去的是海康威视，不查不知道，海康威视居然是全球安防市场的龙头企业，是我孤陋寡闻了(😀)，先是去的3期区，去看了相关的展会，走进去体验了很多很有意思的科技，只是可惜因为保密的缘故没有拍照。</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E6%B5%B7%E5%BA%B72.jpg"></p>
+<p>看得出，很多相关技术都是与感知有关的技术，其中最主要的还是基于视觉的感知吧，后来跟我们分享的主管人也是这么说的，一开始就是靠着监控发的家。应该是后面再一步步拓展扩大了业务范围，有了新的理念–安防。这种东西可以和政府形成密切的商业关系，后面也证实了我的看法，与政府的合作业务占比五分之一。只能说怪不得学校开设了计算机视觉和人工智能这两门课，足以证明这可能是未来的主流方向，不过被封锁的道路会走的相当的艰难。</p>
+<p>然后就到了四期区的会议厅听报告，几位给我们宣讲的学长很有意思，两位都很腼腆，其中一位学长说的话也很有道理，就是如果你真的下定决心去做一件事，那么一年的时间足以，这次实习游玩结束之后我也当定下自己的考研决心，收心学习了。海康威视的人才培养方案看起来也相当的可以，不管是从技术层面还是管理层面都很不错，而且正常的福利薪资都很不错。</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E6%B5%B7%E5%BA%B71.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E6%B5%B7%E5%BA%B73.jpg"></p>
+<p>听完会议厅就上4楼去食堂就餐，食堂的饭菜很多种多样，我点了粉蒸肉、口水鸡、蒸蛋、瓦罐煨汤，结果也没花很多钱，感觉比学校强(乐)，不过仔细品尝还是和外面的饭店不能比，尝起来味道还不够到位。</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E9%A5%AE%E9%A3%9F1.jpg"></p>
+<p>吃完饭就打道回府了，但是来杭州不去西湖就等于白来，于是在我们的强烈要求下，田泽安老师主动帮我们询问最后把我们丢到地铁站的门口，西湖之旅就这样拉开帷幕。杭州的地铁站的空间感觉比长沙要大，但是人并不算很多，而且检查也比较的放松，只扫描一下包就放行了。车费也比长沙要贵，做一段路程就有将近10元的车费，不过我们也坐了很长的一段距离就对了,杭州应该比长沙还要大很多。</p>
+<p>从断桥残雪开始一直走到雷峰塔，从中午一直走到了晚上，感觉西湖并没有想象中的那样充满人文关怀和历史味，更多的反而是自然风光，西湖边上最多的是游客而不是本地人，或者说本地的文化没有体现得出来，感觉还是得去集市或者书店这样的地方可能在人与人之间的交流上才会体现出来吧。最后走的腿都软了，西湖感觉作为一个本地锻炼休息的公园比较的合适，至于其他的就感觉商业气息比较浓重了。</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E8%A5%BF%E6%B9%961.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E8%A5%BF%E6%B9%962.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E8%A5%BF%E6%B9%963.jpg"></p>
+<p>希望后面能够有机会去一趟书店，听说这里的书店很富有古代的气息，而且有很多古籍。并且还想要一个自己的私有的印章。</p>
+<h1 id="第三天"><a href="#第三天" class="headerlink" title="第三天"></a>第三天</h1><p>上午阴雨连绵，然后坐车坐了很久，长途非常犯困，就在路上一路睡了过去，不过在睡前也看了看杭州的风景，在途经山体的时候注意到了山上面虽然郁郁葱葱，但是山体的侧面露出的岩石光秃秃的，到处都是被腐蚀的痕迹，有的山体甚至还铺上了一层网络，没有什么植物生长在上面而且还是垂直的，感觉山体滑坡的风险还是不小的。</p>
+<p>最后到了今天要参观的企业，不过感觉不如昨天的海康，官腔味比较的浓，科研的顶尖成果没怎么看到，感觉传统工业要大于高新科技，不过看得到党建做的还是可以，应该是属于中流砥柱类型的工业集团吧，与人们的日常生活密切相关。</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E5%85%9A%E5%BB%BA.jpg"></p>
+<p>然后吃过盒饭就继续坐车回去了，但是由于下雨的缘故(下午没下雨了，我不知道&#x2F;(ㄒoㄒ)&#x2F;~~)，所以在房间里玩了一天的游戏。</p>
+<h1 id="第四天"><a href="#第四天" class="headerlink" title="第四天"></a>第四天</h1><p>今天是在杭州的最后一天，也是最有意义的一天。</p>
+<p>上午很早就起来，把东西都收拾好确认没有遗漏后就离开了酒店，上午还是有一点小雨的，今天来到了与第二天的人工智能小镇在一块地的之江实验室。这下可真的是国家级别的实验室了，产出的成果非常丰富，而且有很多的专利和论文都在世界的前列，可惜和海康一样禁止拍照，值得一提的是原来之江实验室和湖大有合作，看来湖大在编译领域还是颇有建树的，后面还搞了个签约仪式，可惜学生去不了。然后报告也是面向博士后的报告，基本上都是成果和成员方面的，为科研配套的建筑都在建筑之中，相当的可以。可惜的就是不管饭，这一点差评(😀)！</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E9%A5%AE%E9%A3%9F2.jpg"></p>
+<p>下午放完行李就是自由活动时间，因为第三天没出去，所以最后一段时间肯定要好好利用，根据旅游手册上面的描写，河坊街有很多的纪念品和当地特产可以购买，所以我坐这地铁坐到江城路再转到吴山广场来到了河坊街，果然时古色古香的建筑。</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E6%B2%B3%E5%9D%8A%E8%A1%971.jpg"></p>
+<p>先来到了一条古玩街，这一条街上都是在售卖小手工艺品，店面很小，仅仅只能坐进一个人，掀开帷幕进去，就可以感到丝丝凉意，然人惬意。但是这条街开的店面不多，只有一半不到的店面开着，我在其中寻找印章店，还真给我找到了，但是老板居然不在，仅留下商品在这里，等待片刻，原来老板就在街边上乘凉。只见老板在左下角打开一个小木板，露出一个小洞，然后老板就自己费劲的钻了进去，很是辛苦。然后就跟老板谈好了价钱，搞定了印章。接着买了点龙井给家里人之后，我直奔中山中路，想一观书房的模样。</p>
+<p>穿过了一段古建筑群后来到了书房面前，书房不大，但是边上并无建筑，反而很空旷，书房用围栏给围起来，不同于其他的建筑，书房看起来是木头搭起来的，看起来更具韵味。走进书房，就看到很多小玩意摆在边上，很多是古代南宋时期的一些作品的介绍，还有一些瓷器和木器的小玩意，别具匠心，穿过了一段狭窄的道路，终于来到了空旷的房间，说是空旷，但是平地上并不空旷，摆满了各种纪念品的小玩意供来往的人们观赏和购买。真正空旷的地方反而是阶梯，阶梯很长，并且在阶梯两边设立了坐枕，大家都坐在两边，有的人戴上耳机，然后津津有味的阅读手上的书籍；有的人把鞋一脱，然后把手和脚搭在冰凉的木头上，享受着这炎热的夏日难得的凉爽，还有小孩躺在木板上，将头放在母亲的腿上，深深的睡了过去，神情喜悦。但是这里环境主要还是安静，不管什么样的人，来到这处地方都会安静下来，不想惊扰什么似的。来都来了，总得挑一本书去吧，然后我就看了看相关的书籍，书架很高，基本上只有前三层可以看到，再往上就是人们够不到也看不到的地方了，但是上面也摆放满了书籍，让人禁不住好奇上面难道是什么禁书吗。再来看书的种类，种类还是比较的丰富，很多都是历史、文化、艺术方面的书，但是都并不有名，大多小众，而且一个种类也就三排，图书量也不大。并且并不像旅游指南上面所的那样大多为南宋时期的作品或是描述南宋文化的作品。最后我挑来选去，选择了孟德斯鸠的《论法的精神》，久仰大名，希望能好好阅读。之后就打道回府了。</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E4%B9%A6%E6%88%BF1.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E4%B9%A6%E6%88%BF2.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E4%B9%A6%E6%88%BF3.jpg"></p>
+<p>感觉南宋书房不愧书房之名吧，感觉比起单纯的卖书，反而更注重一种氛围，希望人们能够在这样的安静环境下仔细阅读，卖的什么书反而不是很重要，就像是主题店一样。</p>
+<p>然后就踏上了回家的步伐，杭州之旅就这样结束了。</p>
+<p>最后我们还是硬座回去，但是与之前不同，这次显得更加的拥挤，站票的人们挤作一团，蜷缩在狭窄的过道上，大部分人都在没有空调的出口那里挤着，十分的困难，更重要的是我们定的晚上的票，所以他们不得不考虑站着睡觉。有的人甚至还看上了我露出来的一点点座位的缝隙，将屁股移到那里只为了让自己能轻松一点。最后实在不好意思就席地而坐然后双手抱着膝盖这样睡觉，还要被时不时路过上厕所的人叫醒。甚至还有人2点多了还要跑到出口那里去抽烟，我也是醉了(😶)。在门口的那个胖哥们甚至站着都睡着了，还发出了很大的鼾声，姿势也很搞笑，一只手竖着搭载门沿上，身体靠在这只手的位置，另一只手垂直于门沿，手掌搭在另一个门沿上，形成了一个“直角”的姿势，不过也很辛酸的，看起来实在是太辛苦了，而且这样也没有办法睡太死，稍有动静就醒来了，那个兄弟就只能费劲的张开半只眼来观察周围的动静，然后又很快的睡着很快的醒来，周而复始。我这次还是没有分到有桌子的那一侧，所以我只好坐正了睡觉，但是每睡不了半小时就被脖子的酸痛所“叫醒”，实在没办法睡了，根本睡不着，但是又很困，睡不着就玩玩手机，然后不知不觉进入睡眠等待下一次的醒来。于是在这种半梦半醒的状态下迎来了天亮，“<strong>相与枕藉乎舟中，不知东方之既白</strong>”。</p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E5%BD%92%E9%80%941.jpg"></p>
+<p><img src="/2023/07/03/%E5%AE%9E%E4%B9%A0%E6%B8%B8%E8%AE%B0/%E5%BD%92%E9%80%942.jpg"></p>
+]]></content>
+      <categories>
+        <category>游记</category>
+      </categories>
+      <tags>
+        <tag>游记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最近的一些烦恼或者想法</title>
+    <url>/2023/07/01/%E6%9C%80%E8%BF%91%E7%9A%84%E4%B8%80%E4%BA%9B%E7%83%A6%E6%81%BC%E6%88%96%E8%80%85%E6%83%B3%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近看了很多的关于解放战争的视频，深感现在中国的不易。但是又同时看到了地方债的问题，产业转型升级的困难和许多地方政府出现的问题，比如青海湖要围起来。每当看到底下的评论区阴阳怪气时总是颇感难受，但是基于实事求是的原则来说，这些中很多都是事实，不能因为别人的过度放大而忽视。我们是“幸运”的一代，生长于经济增长的大环境中，但是在即将登上历史舞台的时候遇到了疫情，从而经济下行，就业困难。有时候总在想，一代人有一代人的使命，或许我们这一代人的使命就是带领中国走出现在的困境迈出下一步，但是又深感无力，因为自己的力量微薄并且不算努力，能力有限，就只能干着急。</p>
+<p>我和我爸其实也讨论过现在的困难处境，但是我爸也告诉我说这些事情有必要了解，因为大环境的改变会影响所有人，但是又不可过度关注，因为自己改变不了这个世界，我只能先改变自己，先把自己的事情做好，再来改变世界。过去人们的艰苦奋斗造就了现在中国人的辉煌，我就不信现在还能比过去更加的困难吗。雄关漫道真如铁，而今迈步从头越。在前人的基础上迈出属于自己的一步吧。</p>
+]]></content>
   </entry>
   <entry>
     <title>机器学习</title>
@@ -460,9 +371,129 @@
       </tags>
   </entry>
   <entry>
+    <title>栈与队列</title>
+    <url>/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>栈是只允许在一段进行插入和删除操作的特殊的线性表。上课时老师把栈类比为弹匣，子弹被压进弹匣，不能从另一端出来，所以后面放进来的反而能先出，正所谓”后来居上”。 </p>
+<p>栈的基本操作大同小异，基本如下：</p>
+<blockquote>
+<p>1.初始化一个空栈</p>
+<p>2.判断栈是否为空</p>
+<p>3.将一个元素入栈：记得检查是否栈满,链栈不必检查</p>
+<p>4.将一个元素出栈：记得检查是否栈空</p>
+<p>5.返回栈顶的值</p>
+<p>6.销毁栈，释放空间</p>
+</blockquote>
+<h2 id="顺序栈"><a href="#顺序栈" class="headerlink" title="顺序栈"></a>顺序栈</h2><p>顺序栈顾名思义，就是用顺序结构实现的栈，其主要特点和顺序表一致，需要划一片连续的存储空间来进行存储，基本上通过数组实现。</p>
+<p>栈的顺序存储类型可描述为：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> </span><br><span class="line">&#123; </span><br><span class="line">  <span class="type">int</span> data[MaxSize]; <span class="comment">// 创建栈的空间，用数组表示</span></span><br><span class="line">  <span class="type">int</span> top; <span class="comment">// 用于表示栈顶元素的在数组中的位置</span></span><br><span class="line">&#125;SqStack;</span><br></pre></td></tr></table></figure>
+
+<p>top可以设置为-1也可以设置为0，这个每个题目不同视情况而定。</p>
+<p>但顺序栈的缺点和顺序表一样，空间大小是固定死的，不能随机应变，而且还要连续的存储空间，有时候不易实现。</p>
+<p>顺序栈中为了更加有效利用存储空间，提出共享栈，让两个顺序栈共享一个一维数组空间，两个栈的空间相互调节，通过两个栈顶指针相减为1判断栈满，减少存储空间，降低发生上溢的可能。</p>
+<p><img src="/2023/07/14/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97/%E5%85%B1%E4%BA%AB%E6%A0%88.png"></p>
+<h2 id="链栈"><a href="#链栈" class="headerlink" title="链栈"></a>链栈</h2><p>链栈也很明显，采用了链式存储结构，优点在于便于多个栈共享存储空间和提高其效率，并且不会存在栈满上溢的情况。所有的操作都是在单链表的表头进行。</p>
+<p>队列的基本操作如下：</p>
+<blockquote>
+<p>1.初始化队列</p>
+<p>2.判断队列是否为空</p>
+<p>3.入队，要检查队列是否满了</p>
+<p>4.出队，要检查队列是否为空</p>
+<p>5.读队头元素。</p>
+</blockquote>
+<h1 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h1><h2 id="前言-1"><a href="#前言-1" class="headerlink" title="前言"></a>前言</h2><p>队列和栈一样，也是受到限制的线性表，他只能在一端输出一端输入，和我们平时的排队很像，不允许插队，也不能中途离队，只能从队尾开始排，从队头出。</p>
+<h2 id="顺序队列"><a href="#顺序队列" class="headerlink" title="顺序队列"></a>顺序队列</h2><p>顺序队列还是一样还是顺序结构，分配一块连续的存储空间存放队列的元素，并附设两个指针：队头指针和队尾指针。</p>
+<p>队列的顺序存储类型可描述为：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> &#123; </span><br><span class="line">    <span class="type">int</span> data[MaxSize];<span class="comment">// 用于存放队列元素</span></span><br><span class="line">    <span class="type">int</span> front, rear;<span class="comment">// 用于存放队头和队尾指针，分别指向队头元素在队列数组中的位置和队尾元素的下一个位置</span></span><br><span class="line">&#125;SqQueue;</span><br></pre></td></tr></table></figure>
+
+<p>队尾指针指向的位置也是可以变动的，视情况而定。</p>
+<p>但是顺序队列有他的局限性，那就是判断队列是否满了不好判断，举个例子：</p>
+<p>先将队列填满，那么rear队尾指针就已经到了maxsize-1，但是这时队头出去一个，那么这个队列就空出了一个，那么这个队列就没有满，但是rear的指针是不变的，所以并不能通过rear指针的位置判断队列是否满。</p>
+<h2 id="循环队列"><a href="#循环队列" class="headerlink" title="循环队列"></a>循环队列</h2><p>刚才说了顺序队列的缺陷，现在顺势引出循环队列，循环队列可以将其看作是一个环状的图形，将存储队列的元素从逻辑上看作是一个环，称为循环队列。但是当rear指针指到maxsize-1时，下一个就要到位置为0的地方，所以得到的结果应该通过取余数的方式实现         **%**。</p>
+<p>那么循环队列判断队空和队满的条件是什么？显然队空的条件是Q.front&#x3D;&#x3D;Q.rear。若入队元素的速度快于出队元素的速度，那队尾指针很快就会赶上队首指针，到时候队满的条件也成了 Q.front&#x3D;&#x3D;Q.rear。以下有三种方法解决：</p>
+<p><mark>1.空出一个单元不存储数据，这样的话入队就少了一个队列单元，这种做法比较普遍。那么队头指针在队尾指针的下一个位置是队满的标志。</mark> </p>
+<blockquote>
+<p>队满条件：(Q.rear+1)%MaxSize&#x3D;&#x3D;Q.front.</p>
+<p>队空条件：Q.front&#x3D;&#x3D;Q.rear.</p>
+<p>队列中元素的个数：(Q.rear-Q.front+MaxSize)%MaxSize.</p>
+</blockquote>
+<p><mark>2.类型增设表示元素个数的数据成员size。</mark> </p>
+<blockquote>
+<p>队满条件：Q.size&#x3D;MaxSize。</p>
+<p>队空条件：Q.Size&#x3D;0.</p>
+</blockquote>
+<p><mark>3.类型中设置tag数据成员，以区分队空还是队满。tag&#x3D;0时，就表示上一个操作为删除，如果Q.front&#x3D;&#x3D;Q.rear，那就是队空；tag&#x3D;1时，表示上一个操作为插入，如果Q.front&#x3D;&#x3D;Q.rear，就表示队满。</mark></p>
+<h2 id="链式队列"><a href="#链式队列" class="headerlink" title="链式队列"></a>链式队列</h2><h3 id="链式存储"><a href="#链式存储" class="headerlink" title="链式存储"></a>链式存储</h3><hr>
+<p>队列的链式表示被称为链队列，它是一个同时带有队头指针和队尾指针的单链表。头指针指向队头结点，尾指针指向队尾结点，及单链表最后一个结点。<u>但是要注意头指针和头结点是不一样的，一个指向的是逻辑结构上的队头，一个指向链表的表头。</u>以下是队列的链式存储类型：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 定义链式队列的结点</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> &#123;</span><br><span class="line">    <span class="type">int</span> data;</span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">LinkNode</span> *next;</span><br><span class="line">&#125;LinkNode;</span><br><span class="line"><span class="comment">// 定义链式队列</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span> &#123;</span><br><span class="line">    LinkNode *front, *rear;<span class="comment">// 链式队列中包含指向队头和队尾的指针，由于队列是队头进队尾出，因此需要标记队尾指针</span></span><br><span class="line">    <span class="type">int</span> length;<span class="comment">// 用于记录队列的长度</span></span><br><span class="line">&#125;LinkQueue;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>&amp;ensp;&amp;ensp;  值得注意的是，不带头结点的链式队列在操作上往往比较麻烦，因此通常将链式队列设计成一个带头结点的单链表，这样操作和删除操作就统一了。</p>
+<p>&amp;emsp; &amp;emsp; 用单链表表示的链式队列特别适合数据元素变动比较大的情形，而且不存在队列满且溢出的问题。另外，如果程序中要使用多个队列，与多个栈的情形一样，最好使用链式队列，这样不会出现存储分配不合理和“溢出”的问题。所以之前提到的循环队列用在链式队列中纯属画蛇添足。</p>
+</blockquote>
+<h2 id="双端队列"><a href="#双端队列" class="headerlink" title="双端队列"></a>双端队列</h2><h2 id="栈和队列的应用"><a href="#栈和队列的应用" class="headerlink" title="栈和队列的应用"></a>栈和队列的应用</h2><h3 id="栈的应用"><a href="#栈的应用" class="headerlink" title="栈的应用"></a>栈的应用</h3><hr>
+<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p>1. </p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>栈</tag>
+        <tag>队列</tag>
+        <tag>数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>树</title>
+    <url>/2023/07/14/%E6%A0%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1><h2 id="树的遍历"><a href="#树的遍历" class="headerlink" title="树的遍历"></a>树的遍历</h2><h3 id="前序遍历"><a href="#前序遍历" class="headerlink" title="前序遍历"></a>前序遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Inorder</span><span class="params">(<span class="type">int</span> rt)</span></span></span><br><span class="line"><span class="function">   </span>&#123; </span><br><span class="line">        <span class="keyword">if</span>(nodeArray[rt].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>)</span><br><span class="line">     &#123; </span><br><span class="line">        <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">left</span>());</span><br><span class="line">        cout&lt;&lt;nodeArray[rt].<span class="built_in">element</span>()&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">        <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">right</span>()); </span><br><span class="line">     &#125; </span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="中序遍历"><a href="#中序遍历" class="headerlink" title="中序遍历"></a>中序遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Inorder</span><span class="params">(<span class="type">int</span> rt)</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">   <span class="keyword">if</span>(nodeArray[rt].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>) </span><br><span class="line">   &#123; </span><br><span class="line">      <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">left</span>());</span><br><span class="line">      cout&lt;&lt;nodeArray[rt].<span class="built_in">element</span>()&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">      <span class="built_in">Inorder</span>(nodeArray[rt].<span class="built_in">right</span>()); </span><br><span class="line">   &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">postorder</span><span class="params">(<span class="type">int</span> rt)</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">    <span class="keyword">if</span>(nodeArray[rt].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>) </span><br><span class="line">  &#123; </span><br><span class="line">    <span class="built_in">postorder</span>(nodeArray[rt].<span class="built_in">left</span>()); </span><br><span class="line">    <span class="built_in">postorder</span>(nodeArray[rt].<span class="built_in">right</span>()); </span><br><span class="line">    cout&lt;&lt;nodeArray[rt].<span class="built_in">element</span>()&lt;&lt;<span class="string">&quot; &quot;</span>; </span><br><span class="line">  &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="层次遍历"><a href="#层次遍历" class="headerlink" title="层次遍历"></a>层次遍历</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">LevelOrderTraverse</span><span class="params">(<span class="type">int</span> rt)</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">   queue&lt;<span class="type">int</span>&gt; q;</span><br><span class="line">   <span class="keyword">if</span>(nodeArray[rt].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>)</span><br><span class="line">          q.<span class="built_in">push</span>(rt); </span><br><span class="line">   <span class="type">int</span> temp;</span><br><span class="line">   <span class="keyword">while</span>(!q.<span class="built_in">empty</span>()) </span><br><span class="line">  &#123; </span><br><span class="line">     temp=q.<span class="built_in">front</span>();</span><br><span class="line">     cout&lt;&lt;nodeArray[temp].<span class="built_in">element</span>()&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">     q.<span class="built_in">pop</span>();</span><br><span class="line">     <span class="type">int</span> l=nodeArray[temp].<span class="built_in">left</span>();</span><br><span class="line">     <span class="type">int</span> r=nodeArray[temp].<span class="built_in">right</span>();</span><br><span class="line">     <span class="comment">//左右孩子不为空时则依次进入队列 </span></span><br><span class="line">     <span class="keyword">if</span>(nodeArray[l].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>)</span><br><span class="line">     q.<span class="built_in">push</span>(l);</span><br><span class="line">     <span class="keyword">if</span>(nodeArray[r].<span class="built_in">element</span>()!=<span class="string">&#x27;#&#x27;</span>)</span><br><span class="line">     q.<span class="built_in">push</span>(r);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>层次遍历可以用队列来实现，先将根节点放入队列中，然后弹出，同时将子节点放入队列，这样一直循环一直到队列为空为止。</p>
+<p>记得当时上人工智能的时候就用到了队列，好像是A*算法吧，虽然不是树的结构，是图的结构，但也大同小异。</p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>树</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>监听法和目录法</title>
     <url>/2023/05/27/%E7%9B%91%E5%90%AC%E6%B3%95%E5%92%8C%E7%9B%AE%E5%BD%95%E6%B3%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
+    <title>矩阵</title>
+    <url>/2023/07/24/%E7%9F%A9%E9%98%B5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h1><h2 id="矩阵的运算"><a href="#矩阵的运算" class="headerlink" title="矩阵的运算"></a>矩阵的运算</h2><ol>
+<li><p>数乘矩阵和矩阵的加法和数的计算差不多。</p>
+</li>
+<li><p>矩阵的乘法不满足交换律，顺序很重要，第一个矩阵的列数必须和第二个矩阵的行数一致。但是结合律和分配律存在，要注意矩阵的先后顺序。矩阵的乘法消去律不成立。</p>
+</li>
+<li><p>AB&#x3D;0不能推出A&#x3D;0或B&#x3D;0.</p>
+</li>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>线性代数</category>
+      </categories>
+      <tags>
+        <tag>线性代数</tag>
+        <tag>矩阵</tag>
+      </tags>
   </entry>
   <entry>
     <title>计算机体系结构-Tomasulo算法</title>
@@ -603,36 +634,5 @@
       <tags>
         <tag>指令的动态调度</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>哥们的第一篇博客</title>
-    <url>/2023/05/24/%E5%93%A5%E4%BB%AC%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2-%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id><a href="#" class="headerlink" title></a></h1><h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><p>其实我开始博客的时间已经相当晚了，现在已经是大三的下学期即将画上句号，按理说能学得都已经学完了，现在正是把学到的东西实践的时刻了。可惜我学艺不精，所以决定考研这条路，也就意味着我的专业课知识得从头来过，不过这也没什么好后悔的，正好以这为教训，引以为鉴。</p>
-<blockquote>
-<p>种一棵树最好的时间是十年前，其次是现在。</p>
-</blockquote>
-<p>准备搭建博客的目的也是为此，决定将我学到的东西分享到网上，正好督促我自己的学习进度，并且这种文书工作我也并不讨厌，可以说得上相得益彰了。总之，学习的路很长，漫漫长路从脚下开始。从今天开始我会将一些学习笔记、不那么隐私的生活感悟写进我的博客，如果你看到了，请付之一笑，这些只不过是我年少的妄语，随着时间的推移，身份的改变，我自己肯定也会改变的，再回过头来看说不定也觉得现在的自己年轻幼稚。</p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/05/23/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
