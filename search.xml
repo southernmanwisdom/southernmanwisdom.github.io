@@ -682,13 +682,35 @@
 <li><p>基于邻接表的图算法，需查看某个顶点和与其相邻的实际的边，其总时间代价为O(|V|+|E|)，所以邻接表适合稀疏图。</p>
 </li>
 </ul>
-<h3 id="逆邻接矩阵"><a href="#逆邻接矩阵" class="headerlink" title="逆邻接矩阵"></a>逆邻接矩阵</h3><h3 id="十字链表"><a href="#十字链表" class="headerlink" title="十字链表"></a>十字链表</h3><h3 id="邻接多重表"><a href="#邻接多重表" class="headerlink" title="邻接多重表"></a>邻接多重表</h3><h3 id="边集数组"><a href="#边集数组" class="headerlink" title="边集数组"></a>边集数组</h3>]]></content>
+<h3 id="逆邻接矩阵"><a href="#逆邻接矩阵" class="headerlink" title="逆邻接矩阵"></a>逆邻接矩阵</h3><p>其实就是邻接表反过来，邻接表记录的是以当前顶点为弧尾的边，那么逆邻接表就是记录以当前顶点为弧头的边。方便记录入度。</p>
+<h3 id="十字链表"><a href="#十字链表" class="headerlink" title="十字链表"></a>十字链表</h3><p>和树的孩子兄弟表示法一样，十字链表法的每个弧结点都有两个指针域，分别指向弧头相同的下一条弧和弧尾相同的下一条弧。之所以用弧，是因为十字链表法分为两个部分：分别是顶点表和边表，顶点表里存放的是顶点结点，而边表中存放的是弧结点；它与邻接表不同之处在于<strong>它每个顶点后存的不再是顶点而是边</strong>。边里面就有两个结点。根据这两个节点方便我们统计有向图的出度和入度。</p>
+<p>但是值得一提的是，十字链表法只适用于有向图：</p>
+<p><img src="/2023/08/02/%E5%9B%BE/%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8.png"></p>
+<h3 id="邻接多重表"><a href="#邻接多重表" class="headerlink" title="邻接多重表"></a>邻接多重表</h3><p>邻接多重表用与十字链表法相同的存储结构来优化邻接表表示的无向图，无向图的空间复杂度是O(|V|+2|E|)，邻接表里面的边多出来一倍，造成了空间上的浪费，所以就有了邻接多重表。</p>
+<p>如下图所示，两个指针分别指向下一条依附于前面顶点的边；因此我们有多少条边才会有多少个边结点，空间复杂度也变成了O(|V|+|E|)</p>
+<p><img src="/2023/08/02/%E5%9B%BE/%E9%82%BB%E6%8E%A5%E5%A4%9A%E9%87%8D%E8%A1%A8.png"></p>
+<h3 id="边集数组"><a href="#边集数组" class="headerlink" title="边集数组"></a>边集数组</h3><h2 id="图的最小生成树"><a href="#图的最小生成树" class="headerlink" title="图的最小生成树"></a>图的最小生成树</h2><h3 id="prim算法"><a href="#prim算法" class="headerlink" title="prim算法"></a>prim算法</h3><p>prim算法和dijkstra算法很像，都是从一个点出发，开始找未联通但是距离最近的点，重复此操作知道形成极小连通图，更适合边稠密型的图；并且Prim算法的时间复杂为O(|E|^2)。</p>
+<p><img src="/2023/08/02/%E5%9B%BE/prim.gif"></p>
+<h3 id="kruskal算法"><a href="#kruskal算法" class="headerlink" title="kruskal算法"></a>kruskal算法</h3><p>kruskal算法则是一种边的算法，他通过找到代价最小的边开始，如果变量两边的结点都已经联通，那么就不计入，如果未联通则加入，直到生成连通图。所以kruskal更适合边稀疏图，因为使用并查集，所以时间复杂度为O(|E|log|E|)。</p>
+<p><img src="/2023/08/02/%E5%9B%BE/kruskal.gif"></p>
+]]></content>
       <categories>
         <category>数据结构</category>
       </categories>
       <tags>
         <tag>数据结构</tag>
         <tag>图</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>湘潭韶山游记</title>
+    <url>/2023/08/27/%E6%B9%98%E6%BD%AD%E9%9F%B6%E5%B1%B1%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+      <categories>
+        <category>游记</category>
+      </categories>
+      <tags>
+        <tag>游记</tag>
       </tags>
   </entry>
 </search>
